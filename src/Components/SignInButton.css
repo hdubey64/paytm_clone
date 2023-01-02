@@ -1,0 +1,8 @@
+.vishal {
+   border-radius: 25px;
+   background-color: #01bdf2;
+   border: none;
+}
+.vishal:hover {
+   background-color: #002970;
+}
