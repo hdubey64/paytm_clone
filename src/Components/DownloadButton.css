@@ -1,0 +1,11 @@
+.download {
+   background-color: black;
+   border: 1.5px solid black;
+   border-radius: 25px;
+   color: white;
+}
+
+.download:hover {
+   background-color: white;
+   color: black;
+}

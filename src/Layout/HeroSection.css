@@ -1,0 +1,13 @@
+.tagLine {
+   background: rgb(233, 235, 239);
+   background: linear-gradient(
+      180deg,
+      rgba(233, 235, 239, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+   );
+}
+.heroTag {
+   font-size: 54px;
+   font-weight: 700;
+   color: black;
+}

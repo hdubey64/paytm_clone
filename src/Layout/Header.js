@@ -8,8 +8,6 @@ import {
    Nav,
    NavItem,
    NavLink,
-   NavbarText,
-   Button,
 } from "reactstrap";
 import paytm_logo from "../Assets/Imegas/paytm_logo.png";
 import { Link } from "react-router-dom";
@@ -29,25 +27,29 @@ const Header = () => {
             <Collapse isOpen={isOpen} navbar>
                <Nav className="ms-auto">
                   <NavItem>
-                     <NavLink className="text-black fw-bold">
+                     <NavLink className="text-black fs-5 fw-bold">
                         Paytm for Consumer
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fw-bold">
+                     <NavLink className="text-black fs-5 fw-bold">
                         Paytm for Business
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fw-bold">
+                     <NavLink className="text-black fs-5 fw-bold">
                         Invester Relation
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fw-bold">Company </NavLink>
+                     <NavLink className="text-black fs-5 fw-bold">
+                        Company{" "}
+                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fw-bold">Career</NavLink>
+                     <NavLink className="text-black fs-5 fw-bold">
+                        Career
+                     </NavLink>
                   </NavItem>
                </Nav>
             </Collapse>{" "}
