@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 import paytm_logo from "../Assets/Imegas/paytm_logo.png";
 import { Link } from "react-router-dom";
-import "./Header.css";
 
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -26,19 +25,25 @@ const Header = () => {
          <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto">
                <NavItem>
-                  <NavLink className="text-black">Paytm for Consumer</NavLink>
+                  <NavLink className="text-black fw-bold">
+                     Paytm for Consumer
+                  </NavLink>
                </NavItem>
                <NavItem>
-                  <NavLink className="text-black">Paytm for Business</NavLink>
+                  <NavLink className="text-black fw-bold">
+                     Paytm for Business
+                  </NavLink>
                </NavItem>
                <NavItem>
-                  <NavLink className="text-black">Invester Relation</NavLink>
+                  <NavLink className="text-black fw-bold">
+                     Invester Relation
+                  </NavLink>
                </NavItem>
                <NavItem>
-                  <NavLink className="text-black">Company </NavLink>
+                  <NavLink className="text-black fw-bold">Company </NavLink>
                </NavItem>
                <NavItem>
-                  <NavLink className="text-black">Career</NavLink>
+                  <NavLink className="text-black fw-bold">Career</NavLink>
                </NavItem>
             </Nav>
          </Collapse>
