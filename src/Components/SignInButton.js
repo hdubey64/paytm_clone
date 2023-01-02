@@ -5,7 +5,7 @@ import "./SignInButton.css";
 
 const SignInButton = () => {
    return (
-      <Button className="vishal">
+      <Button className="vishal ms-5">
          Sign Up <img src={Profile} alt="" />
       </Button>
    );
