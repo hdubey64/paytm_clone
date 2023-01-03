@@ -1,0 +1,12 @@
+.consumer {
+   border: none;
+   background-color: white;
+   color: black;
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
+.consumer:hover {
+   background-color: rgb(233, 235, 239);
+   color: black;
+}
