@@ -20,34 +20,34 @@ const Header = () => {
    return (
       <Container>
          <Navbar color="white" light expand="md">
-            <NavbarBrand>
+            <NavbarBrand className="ps-0 ms-0">
                <img src={paytm_logo} alt="Brand Pic" width={180} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                <Nav className="ms-auto">
                   <NavItem>
-                     <NavLink className="text-black fs-5 fw-bold">
+                     <NavLink className="py-4 text-black fs-5 fw-bold">
                         Paytm for Consumer
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fs-5 fw-bold">
+                     <NavLink className="py-4 text-black fs-5 fw-bold">
                         Paytm for Business
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fs-5 fw-bold">
+                     <NavLink className="py-4 text-black fs-5 fw-bold">
                         Invester Relation
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fs-5 fw-bold">
+                     <NavLink className="py-4 text-black fs-5 fw-bold">
                         Company{" "}
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="text-black fs-5 fw-bold">
+                     <NavLink className="py-4 text-black fs-5 fw-bold">
                         Career
                      </NavLink>
                   </NavItem>

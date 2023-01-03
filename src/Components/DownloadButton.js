@@ -6,7 +6,7 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const DownloadButton = () => {
    return (
-      <Button className="download py-2 px-4">
+      <Button className="download py-2 px-4 my-3">
          Download Paytm App
          <FaApple />
          <FaGooglePlay />

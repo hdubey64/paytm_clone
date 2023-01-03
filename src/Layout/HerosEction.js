@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Button, Col, Row } from "reactstrap";
 import Logo2 from "../Assets/Imegas/paytm_logo2.png";
+import Photo from "../Assets/Imegas/abcd.webp";
 import DownloadButton from "../Components/DownloadButton";
 import "./HeroSection.css";
-
 export const HeroSection = () => {
    return (
       <>
@@ -11,9 +11,9 @@ export const HeroSection = () => {
             <b>No Wallet KYC Required</b> 😊 to pay using UPI on Paytm. Learn
             more.
          </p>
-         <Container className="pt-5">
+         <Container className="pt-5 ">
             <Row>
-               <Col className="md-6">
+               <Col className="md-6 pt-5">
                   <div className="logo ps-5">
                      <img src={Logo2} alt="" width={80} />
                      <h1 className="mt-5 pe-5 heroTag">
@@ -27,7 +27,11 @@ export const HeroSection = () => {
                      <DownloadButton />
                   </div>
                </Col>
-               <Col className="md-6"></Col>
+               <Col className="md-6 pt-4">
+                  <div className="me-0 heroBanner text-end">
+                     <img src={Photo} alt="" width={528} />
+                  </div>
+               </Col>
             </Row>
          </Container>
       </>

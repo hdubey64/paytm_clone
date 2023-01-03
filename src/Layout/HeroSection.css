@@ -11,3 +11,7 @@
    font-weight: 700;
    color: black;
 }
+
+.heroBanner img {
+   margin-right: -110px;
+}
