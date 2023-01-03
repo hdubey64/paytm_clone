@@ -12,6 +12,9 @@ import {
 import paytm_logo from "../Assets/Imegas/paytm_logo.png";
 import { Link } from "react-router-dom";
 import SignInButton from "../Components/SignInButton";
+import PaytmConsumer from "../Components/Dropdowns/PaytmConsumer";
+import PaytmBusiness from "../Components/Dropdowns/PaytmBusiness";
+import Company from "../Components/Dropdowns/Company";
 
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -27,29 +30,25 @@ const Header = () => {
             <Collapse isOpen={isOpen} navbar>
                <Nav className="ms-auto">
                   <NavItem>
-                     <NavLink className="py-4 text-black fs-5 fw-bold">
-                        Paytm for Consumer
+                     <NavLink>
+                        <PaytmConsumer />
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="py-4 text-black fs-5 fw-bold">
-                        Paytm for Business
+                     <NavLink>
+                        <PaytmBusiness />
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="py-4 text-black fs-5 fw-bold">
-                        Invester Relation
+                     <NavLink className="consumer">Invester Relation</NavLink>
+                  </NavItem>
+                  <NavItem>
+                     <NavLink>
+                        <Company />
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="py-4 text-black fs-5 fw-bold">
-                        Company{" "}
-                     </NavLink>
-                  </NavItem>
-                  <NavItem>
-                     <NavLink className="py-4 text-black fs-5 fw-bold">
-                        Career
-                     </NavLink>
+                     <NavLink className="consumer">Career</NavLink>
                   </NavItem>
                </Nav>
             </Collapse>{" "}
