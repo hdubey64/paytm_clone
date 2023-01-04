@@ -1,0 +1,13 @@
+.bills {
+   padding: 65px;
+   background-color: #01bdf2;
+}
+.bills h1 {
+   color: white;
+   font-size: 36px;
+}
+.billsCard {
+   padding-top: 30px;
+   display: flex;
+   align-items: flex-start;
+}
