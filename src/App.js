@@ -6,6 +6,7 @@ import "firebase/auth";
 import Header from "./Layout/Header";
 import { HeroSection } from "./Layout/HeroSection";
 import BillsSection from "./Layout/BillsSection";
+import BuySection from "./Layout/BuySection";
 
 function App() {
    return (
@@ -13,6 +14,7 @@ function App() {
          <Header />
          <HeroSection />
          <BillsSection />
+         <BuySection />
       </div>
    );
 }
