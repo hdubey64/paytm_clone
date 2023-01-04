@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button, Col, Row } from "reactstrap";
+import { Container, Col, Row } from "reactstrap";
 import Logo2 from "../Assets/Imegas/paytm_logo2.png";
 import Photo from "../Assets/Imegas/abcd.webp";
 import DownloadButton from "../Components/DownloadButton";
@@ -11,7 +11,7 @@ export const HeroSection = () => {
             <b>No Wallet KYC Required</b> 😊 to pay using UPI on Paytm. Learn
             more.
          </p>
-         <Container className="pt-5 ">
+         <Container className="pt-5 heroContant ">
             <Row>
                <Col className="md-6 pt-5">
                   <div className="logo ps-5">

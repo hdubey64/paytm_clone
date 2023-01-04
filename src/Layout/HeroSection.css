@@ -6,6 +6,10 @@
       rgba(255, 255, 255, 1) 100%
    );
 }
+.heroContant {
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+}
 .heroTag {
    font-size: 54px;
    font-weight: 700;
