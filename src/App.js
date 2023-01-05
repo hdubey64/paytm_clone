@@ -7,6 +7,7 @@ import Header from "./Layout/Header";
 import { HeroSection } from "./Layout/HeroSection";
 import BillsSection from "./Layout/BillsSection";
 import BuySection from "./Layout/BuySection";
+import PaytmWallet from "./Layout/Payments Instrament/PaytmWallet";
 
 function App() {
    return (
@@ -15,6 +16,7 @@ function App() {
          <HeroSection />
          <BillsSection />
          <BuySection />
+         <PaytmWallet />
       </div>
    );
 }
