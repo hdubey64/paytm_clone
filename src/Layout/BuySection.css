@@ -1,13 +1,13 @@
-.bills {
+.buy {
    padding: 60px;
-   background-color: #01bdf2;
+   background-color: #002970;
 }
-.bills h1 {
+.buy h1 {
    color: white;
    font-size: 36px;
    font-weight: 700;
 }
-.billsCard {
+.buyCard {
    padding-top: 30px;
    display: flex;
    align-items: flex-start;
