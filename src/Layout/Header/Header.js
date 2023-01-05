@@ -9,12 +9,12 @@ import {
    NavItem,
    NavLink,
 } from "reactstrap";
-import paytm_logo from "../Assets/Imegas/paytm_logo.png";
+import paytm_logo from "../../Assets/Imegas/paytm_logo.png";
 import { Link } from "react-router-dom";
-import SignInButton from "../Components/SignInButton";
-import PaytmConsumer from "../Components/Dropdowns/PaytmConsumer";
-import PaytmBusiness from "../Components/Dropdowns/PaytmBusiness";
-import Company from "../Components/Dropdowns/Company";
+import SignInButton from "../../Components/SignInButton";
+import PaytmConsumer from "../../Components/Dropdowns/PaytmConsumer";
+import PaytmBusiness from "../../Components/Dropdowns/PaytmBusiness";
+import Company from "../../Components/Dropdowns/Company";
 
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Col, Row } from "reactstrap";
-import Logo2 from "../Assets/Imegas/paytm_logo2.png";
-import Photo from "../Assets/Imegas/abcd.webp";
-import DownloadButton from "../Components/DownloadButton";
+import Logo2 from "../../Assets/Imegas/paytm_logo2.png";
+import Photo from "../../Assets/Imegas/abcd.webp";
+import DownloadButton from "../../Components/DownloadButton";
 import "./HeroSection.css";
 export const HeroSection = () => {
    return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import Card from "../Components/Card";
+import Card from "../../Components/Card";
 import "./BillsSection.css";
 
 const BillsSection = () => {
