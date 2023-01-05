@@ -1,0 +1,30 @@
+.cardBtn {
+   color: white;
+   font-weight: 700;
+   font-size: 18px;
+   text-decoration: none;
+   padding-left: -100px;
+   margin-left: 0;
+}
+.cardBtn-2 {
+   color: white;
+   font-weight: 600;
+   font-size: 17px;
+   text-decoration: none;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+.card.lightBlue:hover {
+   background-color: #00afe3;
+}
+
+.card.darkBlue:hover {
+   background-color: #00000022;
+}
+
+.cardColor {
+   border: none;
+   background-color: transparent;
+   /* background-color: #01bdf2; */
+}
