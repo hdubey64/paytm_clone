@@ -1,0 +1,38 @@
+.content {
+   border: none;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 80px 50px 80px 115px;
+}
+.center-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.logoTag {
+   padding-left: 50px;
+   display: flex;
+}
+.logoTag h6 {
+   margin-left: 5px;
+   color: black;
+   font-weight: 700;
+}
+.watToPay {
+   margin: 0, auto;
+   padding-left: 50px;
+}
+.watToPay h1 {
+   color: black;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.watToPay p {
+   color: black;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
