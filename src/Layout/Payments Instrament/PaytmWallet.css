@@ -1,0 +1,42 @@
+.walletSection {
+   background-color: #f5f7fa;
+   padding: 120px 0;
+}
+.walletLogo {
+   display: flex;
+}
+.paytm {
+   margin-left: 10px;
+   font-weight: 700;
+   color: black;
+   padding-bottom: -100px;
+}
+.wallet {
+   margin-left: 10px;
+   font-weight: 700;
+   color: black;
+}
+.walletTag {
+   font-size: 54px;
+   color: black;
+   padding-left: 50px;
+   font-weight: 700;
+   margin-bottom: 8px;
+}
+
+.walletContant {
+   padding: 10px 50px 80px 115px;
+}
+.innerContant {
+   padding-left: 60px;
+}
+h1 {
+   color: black;
+}
+
+p {
+   color: black;
+}
+.walletBanner {
+   padding-left: -60px;
+}
