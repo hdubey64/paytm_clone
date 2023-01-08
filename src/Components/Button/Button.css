@@ -1,5 +1,5 @@
 .learnMore {
-   border: 1px solid #203569;
+   border: none;
    border-radius: 50px;
    background-color: #203569;
    text-decoration: none;
@@ -8,4 +8,8 @@
    /* padding: 15px 25px;
    
    font-weight: 700px; */
+}
+.learnMore:hover {
+   color: white;
+   background-color: #00baf2;
 }
