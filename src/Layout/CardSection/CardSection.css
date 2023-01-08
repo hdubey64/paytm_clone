@@ -1,24 +1,21 @@
 .cardSection {
    background-color: #f5f7fa;
-   /* padding: 120px; */
+
+   margin: 0 auto;
 }
 
-/* .cardContent {
-   border: 1px solid green;
+.cardContent {
    width: 92%;
    margin: 0 auto;
-   background-color: white;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 80px 50px 80px 115px;
+   /* background-color: white; */
 }
 .innerContent {
-   padding-right: 150px;
+   border: none;
+   padding: 0 auto;
 }
 
-.innerContent h2 {
-   margin-top: 48px;
+.innerContent h1 {
+   margin-top: 40px;
    color: black;
    font-weight: 700;
 }
@@ -27,4 +24,8 @@
    padding: 24px 0 30px 0;
    font-size: 18px;
    color: black;
+}
+/* .cardBanner {
+   border: 1px solid green;
+   padding-bottom: -1000px;
 } */
