@@ -8,7 +8,8 @@ import { HeroSection } from "./Layout/Hero Section/HeroSection";
 import BillsSection from "./Layout/Bill Section/BillsSection";
 import BuySection from "./Layout/Buy Section/BuySection";
 import PaytmWallet from "./Layout/Payments Instrament/PaytmWallet";
-import CardSection from "./Layout/CardSection/CardSection";
+import CardSection from "./Layout/CardSection";
+import FinancialSection from "./Layout/Financial Services";
 
 function App() {
    return (
@@ -19,6 +20,7 @@ function App() {
          <BuySection />
          <PaytmWallet />
          <CardSection />
+         <FinancialSection />
       </div>
    );
 }
