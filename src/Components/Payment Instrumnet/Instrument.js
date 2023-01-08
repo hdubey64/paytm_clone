@@ -4,13 +4,15 @@ import DownloadButton from "../DownloadButton";
 import "./Instrument.css";
 
 const Instrument = ({
-   title = "Basketball",
+   title = "",
    title2 = "",
    saySomthing = "Give a me Para",
    img = "",
    tagLine = "Give Your Punch Line",
    banner = "",
    tagLine2 = "",
+   width = "80px",
+   cardButton = <DownloadButton />,
 }) => {
    return (
       <div
@@ -22,7 +24,7 @@ const Instrument = ({
                <img
                   src={img}
                   className="card-img-center"
-                  style={{ width: "80px" }}
+                  style={{ width }}
                   alt="...."
                />
                <h6>
@@ -36,9 +38,10 @@ const Instrument = ({
                </h6>
             </div>
             <div className="watToPay">
-               <h1 className="card-title mt-3  ">{tagLine}</h1>
-               <p className="card-text">{saySomthing}</p>
-               <DownloadButton />
+               <h1 className="card-title mt-3 me-4  ">{tagLine}</h1>
+               <p className="card-text mb-5">{saySomthing}</p>
+
+               {cardButton}
             </div>
          </div>
          <div>

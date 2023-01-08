@@ -1,0 +1,30 @@
+.cardSection {
+   background-color: #f5f7fa;
+   /* padding: 120px; */
+}
+
+/* .cardContent {
+   border: 1px solid green;
+   width: 92%;
+   margin: 0 auto;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 80px 50px 80px 115px;
+}
+.innerContent {
+   padding-right: 150px;
+}
+
+.innerContent h2 {
+   margin-top: 48px;
+   color: black;
+   font-weight: 700;
+}
+
+.innerContent p {
+   padding: 24px 0 30px 0;
+   font-size: 18px;
+   color: black;
+} */

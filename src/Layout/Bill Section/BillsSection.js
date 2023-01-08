@@ -41,8 +41,6 @@ const BillsSection = () => {
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png"
                   className="cardBtn-2"
                />
-               <Card buttonText="" img="" />
-               <Card buttonText="" img="" />
             </div>
          </Container>
       </div>
