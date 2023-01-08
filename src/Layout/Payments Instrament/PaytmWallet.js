@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import "./PaytmWallet.css";
 import Instrument from "../../Components/Payment Instrumnet/Instrument";
 import DownloadButton from "../../Components/DownloadButton";
+import LearnMoreButton from "../../Components/Button/Button";
 
 const PaytmWallet = () => {
    return (
@@ -22,21 +23,23 @@ const PaytmWallet = () => {
                img="	https://assetscdn1.paytm.com/images/catalog/view/307186/1615957674521.png"
                title="UPI Money"
                title2="Transfer"
-               tagLine="Pay anyone directly"
+               tagLine="Pay anyone directly from your bank account."
                tagLine2="from your bank account."
                saySomthing="Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet or Directly from your Bank Account. Plus, send & receive money from anyone."
-               banner="	https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png
-"
+               banner="	https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png"
             />
             <Instrument
-               img="	https://assetscdn1.paytm.com/images/catalog/view/307186/1615957674521.png"
-               title="UPI Money"
-               title2="Transfer"
-               tagLine="Pay anyone directly"
+               img="	https://assetscdn1.paytm.com/images/catalog/view/307191/1613622537678.png"
+               tagLine="Want it ? 
+            No more waiting for it.
+            "
                tagLine2="from your bank account."
-               saySomthing="Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet or Directly from your Bank Account. Plus, send & receive money from anyone."
-               banner="	https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png
-"
+               saySomthing="With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and pay for them next month."
+               banner="	https://assetscdn1.paytm.com/images/catalog/view_item/850764/1626077030984.png"
+               width="166px"
+               cardButton={
+                  <LearnMoreButton buttonText="Learn More" className="mt-5" />
+               }
             />
          </Container>
       </div>
