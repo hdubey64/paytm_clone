@@ -11,6 +11,7 @@ import PaytmWallet from "./Layout/Payments Instrament/PaytmWallet";
 import CardSection from "./Layout/CardSection";
 import FinancialSection from "./Layout/Financial Services";
 import PaytmMoney from "./Layout/PaytmMoney";
+import InsuranceBroking from "./Layout/InsuranceBroking";
 
 function App() {
    return (
@@ -23,6 +24,7 @@ function App() {
          <CardSection />
          <FinancialSection />
          <PaytmMoney />
+         <InsuranceBroking />
       </div>
    );
 }

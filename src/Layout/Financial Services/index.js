@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 import LearnMoreButton from "../../Components/Button/Button";
-import Instrument from "../../Components/Payment Instrumnet/Instrument";
+
 import "./style.css";
 
 const FinancialSection = () => {
