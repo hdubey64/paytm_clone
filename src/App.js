@@ -10,6 +10,7 @@ import BuySection from "./Layout/Buy Section/BuySection";
 import PaytmWallet from "./Layout/Payments Instrament/PaytmWallet";
 import CardSection from "./Layout/CardSection";
 import FinancialSection from "./Layout/Financial Services";
+import PaytmMoney from "./Layout/PaytmMoney";
 
 function App() {
    return (
@@ -21,6 +22,7 @@ function App() {
          <PaytmWallet />
          <CardSection />
          <FinancialSection />
+         <PaytmMoney />
       </div>
    );
 }

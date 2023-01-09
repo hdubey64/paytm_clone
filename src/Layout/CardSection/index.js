@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Instrument from "../../Components/Payment Instrumnet/Instrument";
 import "./CardSection.css";
 
 const CardSection = () => {

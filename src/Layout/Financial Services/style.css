@@ -1,1 +1,25 @@
+.financialSection {
+   margin: 0 auto;
 
+   padding: 60px;
+}
+
+.financialContent {
+   display: flex;
+}
+.financialSection h1 {
+   font-size: 52px;
+   color: black;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.financialInnerContent h1 {
+   padding: 40px 150px 0 0;
+   font-size: 42px;
+}
+.financialInnerContent p {
+   padding-right: 150px;
+   padding-bottom: 40px;
+   font-size: 22px;
+   font-weight: 600;
+}
