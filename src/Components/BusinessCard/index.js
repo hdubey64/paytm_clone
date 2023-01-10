@@ -20,7 +20,7 @@ const BusinessCard = ({
          <Row>
             <Col md-6 className="me-5 m-auto">
                <div className="businessInnerContent">
-                  <h1 className="card-title me-5  ">{tagLine}</h1>
+                  <h1 className="card-title me-5 mb-4 ">{tagLine}</h1>
                   <p className="card-text mb-5 me-5">{saySomthing}</p>
                   <div>{cardButton}</div>
                </div>
