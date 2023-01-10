@@ -1,0 +1,29 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+	<title>New Project</title>
+	<defs>
+		<image  width="1920" height="1080" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAAXNSR0IB2cksfwAAAANQTFRF9ff6EuDgmQAAARNJREFUeJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCnAfjlAAGZJYkPAAAAAElFTkSuQmCC"/>
+		<linearGradient id="g1" x1="0" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d3d4d7"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="960" y1="1080" x2="960" y2="183" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#d3d4d7"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: url(#g1) } 
+		.s2 { fill: url(#g2) } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Shape 1" class="s0" d="m0 948"/>
+	<path id="Shape 2" class="s0" d=""/>
+	<path id="Shape 8" class="s1" d="m1920 369"/>
+	<path id="Shape 12" class="s2" d="m1920 303v777h-1920v-288l237 99 186-198 285 129 198-321 180 192 135-351 162 171 255-93 282-237z"/>
+	<path id="Shape 10" class="s0" d=""/>
+	<path id="Shape 11" class="s0" d=""/>
+	<path id="Shape 7" class="s0" d=""/>
+	<path id="Shape 4" class="s0" d=""/>
+	<path id="Shape 5" class="s0" d=""/>
+</svg>

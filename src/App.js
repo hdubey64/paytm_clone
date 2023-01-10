@@ -12,6 +12,8 @@ import CardSection from "./Layout/CardSection";
 import FinancialSection from "./Layout/Financial Services";
 import PaytmMoney from "./Layout/PaytmMoney";
 import InsuranceBroking from "./Layout/InsuranceBroking";
+import PersonalLoan from "./Layout/PersonalLoan";
+import BusinessServices from "./Layout/BusinessServices";
 
 function App() {
    return (
@@ -25,6 +27,8 @@ function App() {
          <FinancialSection />
          <PaytmMoney />
          <InsuranceBroking />
+         <PersonalLoan />
+         <BusinessServices />
       </div>
    );
 }

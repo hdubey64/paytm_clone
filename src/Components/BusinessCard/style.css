@@ -1,0 +1,31 @@
+.businessContent {
+   border: none;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 80px 0 80px 115px;
+   background-color: #f5f7fa;
+}
+
+.businessInnerContent {
+   display: flex;
+   flex-direction: column;
+   padding-right: 40px;
+}
+.businessInnerContent h1 {
+   color: black;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   padding-right: 40px;
+}
+.businessInnerContent p {
+   color: black;
+   font-size: 18px;
+}
+
+.bannerStyle {
+   margin-right: -92px;
+}
