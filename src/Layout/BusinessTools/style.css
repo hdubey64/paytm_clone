@@ -1,11 +1,10 @@
-.businessToolsSection {
-   padding: 60px 0;
-}
-
 .businessToolsTag {
    font-size: 40px;
    color: black;
    padding-left: 50px;
    font-weight: 700;
    margin-bottom: 8px;
+}
+.businessToolsInnerContent {
+   padding-left: 50px;
 }
