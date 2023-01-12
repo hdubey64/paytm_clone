@@ -7,7 +7,7 @@ const BusinessTools = () => {
    return (
       <div>
          <Container className="businessToolsSection">
-            <div className="businessToolContent m-auto text-cent">
+            <div className="businessToolContent m-auto">
                <h1 className="businessToolsTag">
                   <text>
                      {" "}
@@ -17,7 +17,7 @@ const BusinessTools = () => {
                </h1>
                <div className="businessToolsInnerContent mt-5">
                   <Row>
-                     <Col md-4 m-auto>
+                     <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854033/1626081565192.png"
                            picWidth="240px"
@@ -28,7 +28,7 @@ const BusinessTools = () => {
                            linkText="Learn More"
                         />
                      </Col>
-                     <Col md-4 m-auto>
+                     <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854035/1626081071077.png"
                            picWidth="240px"
@@ -39,7 +39,7 @@ const BusinessTools = () => {
                            linkText="Learn More"
                         />
                      </Col>
-                     <Col md-4 m-auto>
+                     <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854036/1656568216166.png"
                            picWidth="240px"
@@ -50,7 +50,7 @@ const BusinessTools = () => {
                            linkText="Learn More"
                         />
                      </Col>
-                     <Col md-4 m-auto>
+                     <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854038/1626081814411.png"
                            picWidth="240px"
