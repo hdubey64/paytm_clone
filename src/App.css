@@ -1,3 +1,7 @@
+body {
+   scroll-behavior: smooth;
+}
+
 .App {
    text-align: center;
 }

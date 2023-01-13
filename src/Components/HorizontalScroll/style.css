@@ -1,0 +1,51 @@
+/* .scroll-container {
+   width: 55vw;
+   overflow-x: scroll;
+   position: relative;
+   margin: 0 auto;
+} */
+.horizontalScrollContent {
+   position: relative;
+   margin: 0 auto;
+   width: 55vw;
+}
+.scroll-container {
+   width: 55vw;
+   overflow: scroll;
+   position: relative;
+   /* hide scrollbar */
+   -ms-overflow-style: none; /* Internet Explorer 10+ */
+   scrollbar-width: none; /* Firefox */
+}
+.scroll-container::-webkit-scrollbar {
+   display: none; /* Chrome, Safari, Opera*/
+}
+
+.scroll-content {
+   width: 100%;
+   display: flex;
+   margin: 0 auto;
+}
+
+.left-button,
+.right-button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   border: 1px solid #00baf2;
+   color: #00baf2;
+   border-radius: 50%;
+}
+.left-button,
+.left-button {
+   left: -2%;
+}
+
+.right-button {
+   right: -2%;
+}
+.left-button:hover,
+.right-button:hover {
+   border: 1px solid black;
+   color: black;
+}

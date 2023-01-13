@@ -1,0 +1,38 @@
+.moneyCardContent {
+   border-radius: 5px;
+}
+.backgroundBlue {
+   background-color: #00baf2;
+   border: 2px solid #00baf2;
+   opacity: 0.8;
+}
+.backgroundBlue:hover {
+   opacity: 1;
+}
+
+.backgroundWhite {
+   background-color: white;
+}
+.backgroundWhite img {
+   margin-bottom: 25px;
+}
+
+.moneyCardContent h5 {
+   color: white;
+}
+.backgroundWhite p {
+   margin-top: 15px;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+a {
+   color: #00baf2;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 600;
+}
+a:hover {
+   color: #2a3065;
+}
