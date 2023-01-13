@@ -5,16 +5,19 @@ const MoneyCard = ({
    img = "",
    imgWidth = "",
    imgHeight = "",
-   tag = "",
+   investTag = "",
+   travelTag = "",
    backgroudColor = "",
-   paragraph = "",
+   investParagraph = "",
+
    buttonText = "",
 }) => {
    return (
       <div className={`m-3 moneyCardContent ${backgroudColor}  `}>
          <img src={img} alt="" width={imgWidth} height={imgHeight} />
-         <h5 className=" m-3 text-center">{tag}</h5>
-         <p>{paragraph}</p>
+         <h5 className=" m-3 text-center fw-bold">{investTag}</h5>
+         <h5 className=" text-start fw-bold">{travelTag}</h5>
+         <p className=" text-start align-text-bottom">{investParagraph}</p>
          <a href="#">{buttonText}</a>
       </div>
    );
