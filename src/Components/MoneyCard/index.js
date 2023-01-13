@@ -12,13 +12,7 @@ const MoneyCard = ({
 }) => {
    return (
       <div className={`m-3 moneyCardContent ${backgroudColor}  `}>
-         <img
-            src={img}
-            alt=""
-            width={imgWidth}
-            height={imgHeight}
-            className="p-1"
-         />
+         <img src={img} alt="" width={imgWidth} height={imgHeight} />
          <h5 className=" m-3 text-center">{tag}</h5>
          <p>{paragraph}</p>
          <a href="#">{buttonText}</a>
