@@ -1,5 +1,5 @@
 .moneyCardContent {
-   border-radius: 5px;
+   border-radius: 10px;
 }
 .backgroundBlue {
    background-color: #00baf2;
@@ -21,7 +21,7 @@
    color: white;
 }
 .backgroundWhite p {
-   margin-top: 15px;
+   margin-top: 30px;
    color: black;
    font-size: 15px;
    font-weight: 600;
