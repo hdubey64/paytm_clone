@@ -16,8 +16,34 @@
 .backgroundWhite img {
    margin-bottom: 25px;
 }
+.travelCard {
+   background-color: #00baf2;
+   border: 5px solid #00baf2;
+   opacity: 0.8;
+   padding: 30px auto;
+}
+.travelCard img {
+   margin-left: 5px;
+   margin-top: 20px;
+   margin-right: 75px;
+}
+
+.travelCard h5 {
+   margin-top: 25px;
+   font-size: 17px;
+   color: white;
+   padding-left: 5px;
+}
+.travelCard p {
+   padding-left: 5px;
+   color: white;
+   font-size: 12px;
+   font-weight: 700;
+   align-items: flex-start;
+}
 
 .moneyCardContent h5 {
+   font-size: 17px;
    color: white;
 }
 .backgroundWhite p {
