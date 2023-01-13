@@ -18,37 +18,37 @@ const HorizontalScroll = () => {
             <div className="scroll-content">
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="158"
-                  imgHeight="145"
+                  imgWidth="145"
+                  imgHeight="158"
                   tag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="158"
-                  imgHeight="145"
+                  imgWidth="145"
+                  imgHeight="158"
                   tag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
 
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="158"
-                  imgHeight="145"
+                  imgWidth="145"
+                  imgHeight="158"
                   tag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="158"
-                  imgHeight="145"
+                  imgWidth="145"
+                  imgHeight="158"
                   tag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="158"
-                  imgHeight="145"
+                  imgWidth="145"
+                  imgHeight="158"
                   tag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
