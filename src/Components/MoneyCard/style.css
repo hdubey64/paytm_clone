@@ -3,7 +3,7 @@
 }
 .backgroundBlue {
    background-color: #00baf2;
-   border: 2px solid #00baf2;
+   border: 5px solid #00baf2;
    opacity: 0.8;
 }
 .backgroundBlue:hover {
