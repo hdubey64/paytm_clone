@@ -5,8 +5,8 @@ import "./style.css";
 
 const BusinessTools = () => {
    return (
-      <div>
-         <Container className="businessToolsSection">
+      <div className="businessToolsSection">
+         <Container>
             <div className="businessToolContent m-auto">
                <h1 className="businessToolsTag">
                   <text>
