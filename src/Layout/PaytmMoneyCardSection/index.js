@@ -15,7 +15,7 @@ const PaytmMoneyCard = () => {
                         img="https://assetscdn1.paytm.com/images/catalog/view/307196/1626420555412.png"
                         imgWidth="150"
                         imgHeight="59"
-                        paragraph="Get started on wealth creation journey with Zero brokerage fee & no hidden charges."
+                        investParagraph="Get started on wealth creation journey with Zero brokerage fee & no hidden charges."
                         backgroudColor="backgroundWhite"
                         buttonText="Learn More"
                      />

@@ -20,36 +20,36 @@ const HorizontalScroll = () => {
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
                   imgWidth="145"
                   imgHeight="158"
-                  tag="Invest in Stocks"
+                  investTag="Invest in Stocks"
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
+                  img="	https://assetscdn1.paytm.com/images/catalog/view_item/728895/1618575899205.png"
                   imgWidth="145"
                   imgHeight="158"
-                  tag="Invest in Stocks"
+                  investTag="Apply for IPO"
                   backgroudColor="backgroundBlue"
                />
 
                <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
+                  img="	https://assetscdn1.paytm.com/images/catalog/view_item/800760/1618831809222.png"
                   imgWidth="145"
                   imgHeight="158"
-                  tag="Invest in Stocks"
+                  investTag="Invest in ETFs"
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
+                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728896/1618575990183.png"
                   imgWidth="145"
                   imgHeight="158"
-                  tag="Invest in Stocks"
+                  investTag="Buy Gold "
                   backgroudColor="backgroundBlue"
                />
                <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
+                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728899/1618576408440.png"
                   imgWidth="145"
                   imgHeight="158"
-                  tag="Invest in Stocks"
+                  investTag="Invest in Mutual Fund"
                   backgroudColor="backgroundBlue"
                />
             </div>
