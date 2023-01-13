@@ -16,6 +16,7 @@ import PersonalLoan from "./Layout/PersonalLoan";
 import BusinessServices from "./Layout/BusinessServices";
 import BusinessTools from "./Layout/BusinessTools";
 import PaytmMoneyCard from "./Layout/PaytmMoneyCardSection";
+import PaytmTravelCardSection from "./Layout/PaytmTravelCardSection";
 
 function App() {
    return (
@@ -33,6 +34,7 @@ function App() {
          <BusinessServices />
          <BusinessTools />
          <PaytmMoneyCard />
+         <PaytmTravelCardSection />
       </div>
    );
 }
