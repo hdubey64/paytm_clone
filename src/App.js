@@ -17,6 +17,7 @@ import BusinessServices from "./Layout/BusinessServices";
 import BusinessTools from "./Layout/BusinessTools";
 import PaytmMoneyCard from "./Layout/PaytmMoneyCardSection";
 import PaytmTravelCardSection from "./Layout/PaytmTravelCardSection";
+import Footer from "./Layout/Footer";
 
 function App() {
    return (
@@ -35,6 +36,7 @@ function App() {
          <BusinessTools />
          <PaytmMoneyCard />
          <PaytmTravelCardSection />
+         <Footer />
       </div>
    );
 }
