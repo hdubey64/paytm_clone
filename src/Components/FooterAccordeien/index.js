@@ -375,12 +375,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel6"}
+            onChange={handleChange("panel6")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel6d-content"
+               id="panel6d-header"
             >
                <AccordianTitle>
                   Pay Loan EMI, Insurance Premiums & Education Fee plus
@@ -394,12 +394,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel7"}
+            onChange={handleChange("panel7")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel7d-content"
+               id="panel7d-header"
             >
                <AccordianTitle>Book Travel & Entertainment</AccordianTitle>
             </AccordionSummary>
@@ -417,12 +417,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel8"}
+            onChange={handleChange("panel8")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel8d-content"
+               id="panel8d-header"
             >
                <AccordianTitle>Investments & Miscellaneous</AccordianTitle>
             </AccordionSummary>
@@ -434,12 +434,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel9"}
+            onChange={handleChange("panel9")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel9d-content"
+               id="panel9d-header"
             >
                <AccordianTitle>
                   Insurance (Powered by Paytm Insurance Broking Private Limited)
@@ -456,12 +456,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel10"}
+            onChange={handleChange("panel10")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel10d-content"
+               id="panel10d-header"
             >
                <AccordianTitle>Loans and Credit Cards</AccordianTitle>
             </AccordionSummary>
@@ -475,12 +475,12 @@ const FooterAccordions = () => {
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel1"}
-            onChange={handleChange("panel1")}
+            expanded={expanded === "panel11"}
+            onChange={handleChange("panel11")}
          >
             <AccordionSummary
-               aria-controls="panel1d-content"
-               id="panel1d-header"
+               aria-controls="panel11d-content"
+               id="panel11d-header"
             >
                <AccordianTitle>Financial Tools & Calculators</AccordianTitle>
             </AccordionSummary>
