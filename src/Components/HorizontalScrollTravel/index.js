@@ -3,6 +3,21 @@ import MoneyCard from "../MoneyCard/index";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import "./style.css";
 
+const moneyData = [
+   {
+      img: "https://assetscdn1.paytm.com/images/catalog/view_item/863734/1627552693557.png",
+      travelTag: "Flat 14% Cashback ",
+      investParagraph: "With Code WELCOMEFLIGHT",
+      backgroudColor: "travelCard",
+   },
+   {
+      img: "https://assetscdn1.paytm.com/images/catalog/view_item/864144/1627566096011.png",
+      travelTag: "100% Refund",
+      investParagraph: "With Paytm's Cancellation Protect",
+      backgroudColor: "travelCard",
+   },
+];
+
 const HorizontalScrollTravel = () => {
    const scrollContainerRef = useRef(null);
    const handleLeftButtonClick = () => {
@@ -16,6 +31,17 @@ const HorizontalScrollTravel = () => {
       <div className="horizontalScrollTravelContent">
          <div className="scroll-container text-center" ref={scrollContainerRef}>
             <div className="scroll-content">
+               {moneyData.map((item) => (
+                  <MoneyCard
+                     key={item.img}
+                     img={item.img}
+                     imgWidth="72"
+                     imgHeight="72"
+                     travelTag={item.travelTag}
+                     investParagraph={item.investParagraph}
+                     backgroudColor={item.backgroudColor}
+                  />
+               ))}
                <MoneyCard
                   img="https://assetscdn1.paytm.com/images/catalog/view_item/863734/1627552693557.png"
                   imgWidth="72"
