@@ -1,0 +1,159 @@
+.accordionContent {
+   display: flex;
+   width: 100%;
+}
+
+.accordionContent p {
+   position: relative;
+   top: 6px;
+   min-width: max-content;
+   padding-right: 5px;
+   font-size: 12px;
+   font-weight: 700;
+   color: #505050;
+}
+
+.accordionContent div {
+   position: relative;
+   top: 24px;
+   width: 100%;
+   height: 1px;
+   background-color: #ccc;
+   font-size: 14px;
+}
+.invester {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.invester a {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   font-size: 12px;
+   color: #707070;
+}
+.invester a:hover {
+   color: black;
+}
+.moreAbout h6 {
+   font-size: 14px;
+   font-weight: 700;
+   color: #505050;
+}
+.moreAbout p {
+   font-size: 12px;
+   color: #505050;
+   font-weight: 400;
+}
+
+.moreAbout a {
+   font-size: 12px;
+}
+
+.moreAbout a:hover {
+   color: #00baf2;
+}
+
+.colContent {
+   background-color: white;
+   display: flex;
+   height: 101px;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+.colContent span {
+   font-weight: 700;
+}
+
+.colContent p {
+   font-size: 13px;
+   font-weight: 500;
+   padding-left: 10px;
+}
+
+.aboutColContent {
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   width: 72%;
+   align-items: center;
+   border-radius: 10px;
+   padding: 20px 30px;
+}
+.aboutColContent a {
+   font-size: 12px;
+   color: #002970;
+}
+.aboutColContent a:hover {
+   font-weight: 700;
+}
+.questionContentt {
+   display: flex;
+   justify-content: space-between;
+}
+
+.businessColContent {
+   display: flex;
+   width: 27%;
+}
+.businessColContent h6 {
+   font-size: 15px;
+   font-weight: 700;
+   border: 2px solid #85eefc;
+   border-radius: 5px;
+   width: 170px;
+   padding: 30px 20px;
+}
+.businessColContent h6:hover {
+   background-color: #85eefc;
+}
+
+.questionFooter {
+   display: flex;
+   justify-content: center;
+}
+
+.questionFooterInnerContent h6 {
+   font-size: 12px;
+   font-weight: 700;
+}
+.questionFooterInnerContent p {
+   font-size: 12px;
+   font-weight: 400;
+}
+.footerPic {
+   display: flex;
+   justify-content: space-between;
+}
+.askedContent h6 {
+   font-size: 13px;
+   font-weight: 700;
+}
+.askedContent p {
+   font-size: 12px;
+   font-weight: 400;
+}
+li {
+   font-size: 12px;
+   font-weight: 400;
+   margin-left: -18px;
+}
+/* .rechargeContent {
+   display: flex;
+   justify-content: space-between;
+} */
+.rechargeContent a {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: start;
+   height: 50px;
+   font-size: 12px;
+   color: #707070;
+}
+.rechargeContent a:hover {
+   color: black;
+}
