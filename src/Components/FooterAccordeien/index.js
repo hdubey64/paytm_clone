@@ -171,7 +171,7 @@ const FooterAccordions = () => {
                   <div className="questionContent">
                      <Row>
                         <Col sm={12} md={12} lg={4}>
-                           <div className="colContent">
+                           <div className="askedColContent">
                               <img
                                  src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/help.svg"
                                  alt=""
@@ -186,7 +186,7 @@ const FooterAccordions = () => {
                            </div>
                         </Col>
                         <Col sm={12} md={12} lg={4}>
-                           <div className="colContent">
+                           <div className="askedColContent">
                               <img
                                  src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/assurance.svg"
                                  alt=""
@@ -202,7 +202,7 @@ const FooterAccordions = () => {
                         </Col>
 
                         <Col sm={12} md={12} lg={4}>
-                           <div className="colContent">
+                           <div className="askedColContent">
                               <img
                                  src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/trust.svg"
                                  alt=""
@@ -211,7 +211,7 @@ const FooterAccordions = () => {
                               />
                               <p>
                                  <span>Paytm Trust </span>
-                                 Your money is yours. All refunds come with no
+                                 Your moneaskedC is yours. All refunds come with no
                                  question asked guarantee.
                               </p>
                            </div>

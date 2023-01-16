@@ -55,7 +55,7 @@
    color: #00baf2;
 }
 
-.colContent {
+.askedColContent {
    background-color: white;
    display: flex;
    height: 101px;
@@ -64,11 +64,11 @@
    padding: 20px;
 }
 
-.colContent span {
+.askedColContent span {
    font-weight: 700;
 }
 
-.colContent p {
+.askedColContent p {
    font-size: 13px;
    font-weight: 500;
    padding-left: 10px;
