@@ -12,46 +12,48 @@ const HorizontalScroll = () => {
       scrollContainerRef.current.scrollLeft += 250;
    };
 
+   const moneyData = [
+      {
+         img: "https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png",
+         investTag: "Invest in Stocks",
+         backgroudColor: "backgroundBlue",
+      },
+      {
+         img: "	https://assetscdn1.paytm.com/images/catalog/view_item/728895/1618575899205.png",
+         investTag: "Apply for IPO",
+         backgroudColor: "backgroundBlue",
+      },
+      {
+         img: "	https://assetscdn1.paytm.com/images/catalog/view_item/800760/1618831809222.png",
+         investTag: "Invest in ETFs",
+         backgroudColor: "backgroundBlue",
+      },
+      {
+         img: "https://assetscdn1.paytm.com/images/catalog/view_item/728896/1618575990183.png",
+         investTag: "Buy Gold ",
+         backgroudColor: "backgroundBlue",
+      },
+      {
+         img: "https://assetscdn1.paytm.com/images/catalog/view_item/728899/1618576408440.png",
+         investTag: "Invest in Mutual Fund",
+         backgroudColor: "backgroundBlue",
+      },
+   ];
+
    return (
       <div className="horizontalScrollContent">
          <div className="scroll-container text-center" ref={scrollContainerRef}>
             <div className="scroll-content">
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728894/1618576143299.png"
-                  imgWidth="145"
-                  imgHeight="158"
-                  investTag="Invest in Stocks"
-                  backgroudColor="backgroundBlue"
-               />
-               <MoneyCard
-                  img="	https://assetscdn1.paytm.com/images/catalog/view_item/728895/1618575899205.png"
-                  imgWidth="145"
-                  imgHeight="158"
-                  investTag="Apply for IPO"
-                  backgroudColor="backgroundBlue"
-               />
-
-               <MoneyCard
-                  img="	https://assetscdn1.paytm.com/images/catalog/view_item/800760/1618831809222.png"
-                  imgWidth="145"
-                  imgHeight="158"
-                  investTag="Invest in ETFs"
-                  backgroudColor="backgroundBlue"
-               />
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728896/1618575990183.png"
-                  imgWidth="145"
-                  imgHeight="158"
-                  investTag="Buy Gold "
-                  backgroudColor="backgroundBlue"
-               />
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/728899/1618576408440.png"
-                  imgWidth="145"
-                  imgHeight="158"
-                  investTag="Invest in Mutual Fund"
-                  backgroudColor="backgroundBlue"
-               />
+               {moneyData.map((item) => (
+                  <MoneyCard
+                     key={item.img}
+                     img={item.img}
+                     imgWidth="145"
+                     imgHeight="158"
+                     investTag={item.investTag}
+                     backgroudColor={item.backgroudColor}
+                  />
+               ))}
             </div>
          </div>
          <button className="left-button" onClick={handleLeftButtonClick}>

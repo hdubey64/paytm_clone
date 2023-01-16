@@ -16,6 +16,27 @@ const moneyData = [
       investParagraph: "With Paytm's Cancellation Protect",
       backgroudColor: "travelCard",
    },
+   {
+      img: "https://assetscdn1.paytm.com/images/catalog/view_item/864145/1627566172335.png",
+      travelTag: "Flat 10% Cashback",
+      investParagraph: "With code HAPPYBUS",
+      backgroudColor: "travelCard",
+   },
+   {
+      img: "https://assetscdn1.paytm.com/images/catalog/view_item/864151/1627567062180.png",
+      travelTag: "Sanitised Bus Options With TravelSaf",
+      backgroudColor: "travelCard",
+   },
+   {
+      img: "	https://assetscdn1.paytm.com/images/catalog/view_item/864152/1627566492097.png",
+      travelTag: "Hassle Free Train Ticket Bookings",
+      backgroudColor: "travelCard",
+   },
+   {
+      img: "https://assetscdn1.paytm.com/images/catalog/view_item/864153/1627566396231.png",
+      travelTag: "PNR Status Check In Few Simple Clicks",
+      backgroudColor: "travelCard",
+   },
 ];
 
 const HorizontalScrollTravel = () => {
@@ -42,52 +63,6 @@ const HorizontalScrollTravel = () => {
                      backgroudColor={item.backgroudColor}
                   />
                ))}
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/863734/1627552693557.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="Flat 14% Cashback "
-                  investParagraph="With Code WELCOMEFLIGHT"
-                  backgroudColor="travelCard"
-               />
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/864144/1627566096011.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="100% Refund"
-                  investParagraph="With Paytm's Cancellation Protect"
-                  backgroudColor="travelCard"
-               />
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/864145/1627566172335.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="Flat 10% Cashback"
-                  investParagraph="With code HAPPYBUS"
-                  backgroudColor="travelCard"
-               />
-
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/864151/1627567062180.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="Sanitised Bus Options With TravelSaf"
-                  backgroudColor="travelCard"
-               />
-               <MoneyCard
-                  img="	https://assetscdn1.paytm.com/images/catalog/view_item/864152/1627566492097.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="Hassle Free Train Ticket Bookings"
-                  backgroudColor="travelCard"
-               />
-               <MoneyCard
-                  img="https://assetscdn1.paytm.com/images/catalog/view_item/864153/1627566396231.png"
-                  imgWidth="72"
-                  imgHeight="72"
-                  travelTag="PNR Status Check In Few Simple Clicks"
-                  backgroudColor="travelCard"
-               />
             </div>
          </div>
          <button className="left-button" onClick={handleLeftButtonClick}>
