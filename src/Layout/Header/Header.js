@@ -30,8 +30,8 @@ const Header = () => {
                <img src={paytm_logo} alt="Brand Pic" width={180} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar className="collapseWidth">
-               <Nav className="ms-auto navContent text-end">
+            <Collapse isOpen={isOpen} navbar>
+               <Nav className="navContent text-end">
                   <NavItem>
                      <NavLink>
                         <PaytmConsumer />
@@ -47,22 +47,22 @@ const Header = () => {
                         <InvesterRelation />
                      </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="xxlHidden">
                      <NavLink>
                         <Company />
                      </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="xxlHidden">
                      <NavLink>
                         <Career />
                      </NavLink>
                   </NavItem>
-                  <div className="signInBgSc">
+                  <div className="xlHidden">
                      <SignInButton />
                   </div>
                </Nav>
             </Collapse>{" "}
-            <div className="hiddenContent">
+            <div className="lgHidden">
                <SignInButton />
             </div>
          </Navbar>
