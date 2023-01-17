@@ -1,0 +1,26 @@
+/* .navContent {
+   display: flex;
+   justify-content: space-between;
+} */
+/* .collapseWidth {
+   border: 1px solid red;
+   width: 50%;
+} */
+@media (max-width: 1199px) {
+   .hiddenContent {
+      display: None;
+   }
+   .navContent {
+      border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      float: right;
+   }
+}
+
+@media (min-width: 1200px) {
+   .signInBgSc {
+      display: None;
+   }
+}

@@ -15,6 +15,9 @@ import SignInButton from "../../Components/SignInButton";
 import PaytmConsumer from "../../Components/Dropdowns/PaytmConsumer";
 import PaytmBusiness from "../../Components/Dropdowns/PaytmBusiness";
 import Company from "../../Components/Dropdowns/Company";
+import InvesterRelation from "../../Components/Dropdowns/InvesterRelation";
+import Career from "../../Components/Dropdowns/Career";
+import "./style.css";
 
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -22,13 +25,13 @@ const Header = () => {
 
    return (
       <Container>
-         <Navbar color="white" light expand="md">
+         <Navbar color="white" light expand="xl">
             <NavbarBrand className="ps-0 ms-0">
                <img src={paytm_logo} alt="Brand Pic" width={180} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-               <Nav className="ms-auto">
+            <Collapse isOpen={isOpen} navbar className="collapseWidth">
+               <Nav className="ms-auto navContent text-end">
                   <NavItem>
                      <NavLink>
                         <PaytmConsumer />
@@ -40,7 +43,9 @@ const Header = () => {
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="consumer">Invester Relation</NavLink>
+                     <NavLink>
+                        <InvesterRelation />
+                     </NavLink>
                   </NavItem>
                   <NavItem>
                      <NavLink>
@@ -48,11 +53,18 @@ const Header = () => {
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink className="consumer">Career</NavLink>
+                     <NavLink>
+                        <Career />
+                     </NavLink>
                   </NavItem>
+                  <div className="signInBgSc">
+                     <SignInButton />
+                  </div>
                </Nav>
             </Collapse>{" "}
-            <SignInButton />
+            <div className="hiddenContent">
+               <SignInButton />
+            </div>
          </Navbar>
       </Container>
    );
