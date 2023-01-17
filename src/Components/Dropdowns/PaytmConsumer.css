@@ -2,7 +2,7 @@
    border: none;
    background-color: white;
    color: black;
-   font-size: 1.1rem;
+   font-size: 1rem;
    font-weight: 600;
 }
 
@@ -10,3 +10,10 @@
    background-color: rgb(233, 235, 239);
    color: black;
 }
+
+/* @media (max-width: 992px) {
+   .consumer {
+      padding: 10px;
+      margin: 10px;
+   }
+} */

@@ -7,7 +7,6 @@ function PaytmConsumer() {
          <Dropdown.Toggle className="consumer" id="dropdown-custom">
             Paytm for Consumer
          </Dropdown.Toggle>
-
          <Dropdown.Menu>
             <Dropdown.Item className="p-2" href="#/action-1">
                Payments{" "}
