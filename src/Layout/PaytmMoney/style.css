@@ -4,7 +4,6 @@
 }
 .paytmMoneyContent {
    display: flex;
-
    margin: 0 auto;
    padding: 60px;
 }
@@ -20,4 +19,34 @@
 .paytmMoneyInnerContent p {
    font-size: 20px;
    font-weight: 600;
+}
+
+.bannerPaytmMoneyInnerContent img {
+   width: 472px;
+}
+@media (max-width: 576px) {
+   .paytmMoneyContent {
+      padding: 20px;
+      border: 1px solid red;
+   }
+   .paytmMoneyInnerContent {
+      padding: 20px 20px 20px 0;
+   }
+   .paytmMoneyInnerContent h1 {
+      font-size: 26px;
+
+      line-height: 30px;
+      padding-right: 0;
+      margin: 15px auto;
+      text-align: center;
+   }
+   .paytmMoneyInnerContent p {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 30px auto;
+      text-align: justify;
+   }
+   .bannerPaytmMoneyInnerContent img {
+      width: 300px;
+   }
 }

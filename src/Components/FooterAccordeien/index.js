@@ -63,13 +63,19 @@ const FooterAccordions = () => {
                <AccordianTitle>Investor Relations</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4 pe-5 me-5">
-                  <a href="#">Home</a>
-                  <a href="#">Franchaise</a>{" "}
-                  <a href="#">Filings & Press Releases</a>
-                  <a href="#">News & Event</a>{" "}
-                  <a href="#">Corporate Governance</a>
-                  <a href="#">Resources</a>{" "}
+               <div>
+                  <Row>
+                     <Col xs={6} className="invester text-start">
+                        <a href="#">Home</a>
+                        <a href="#">Franchaise</a>{" "}
+                        <a href="#">Filings & Press Releases</a>
+                     </Col>
+                     <Col xs={6} className="invester">
+                        <a href="#">News & Event</a>{" "}
+                        <a href="#">Corporate Governance</a>
+                        <a href="#">Resources</a>{" "}
+                     </Col>
+                  </Row>
                </div>
             </AccordionDetails>
          </Accordion>
@@ -84,7 +90,7 @@ const FooterAccordions = () => {
                <AccordianTitle>More About Paytm</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className=" innerContent moreAbout ps-4 ">
+               <div className=" innerContent moreAbout">
                   <h6>
                      Paytm - India's Most Popular Platform for Money Transfer,
                      BHIM UPI Payments, Recharges and other online payments
@@ -211,29 +217,42 @@ const FooterAccordions = () => {
                               />
                               <p>
                                  <span>Paytm Trust </span>
-                                 Your moneaskedC is yours. All refunds come with no
-                                 question asked guarantee.
+                                 Your moneaskedC is yours. All refunds come with
+                                 no question asked guarantee.
                               </p>
                            </div>
                         </Col>
                      </Row>
                   </div>
                   <div className="questionContentt pt-3">
-                     <div className="aboutColContent">
-                        <a href="">About us</a>
-                        <a href="">24x7 Help</a>
-                        <a href="">Partner with us</a>
-                        <a href="">Grievance policy</a>
-                        <a href="">Blog </a>
-                        <a href="">Bug bounty</a>
-                        <a href="">Privacy</a>
-                        <a href="">Terms & Conditions</a>
-                     </div>
-
-                     <div className="businessColContent">
-                        <h6 className="me-2 ">Become a Seller & Earn</h6>
-                        <h6 className="ms-2  ">Paytm for Business</h6>
-                     </div>
+                     <Row>
+                        <Col md={12} lg={8}>
+                           <div className="aboutColContent">
+                              <a href="">About us</a>
+                              <a href="">24x7 Help</a>
+                              <a href="">Partner with us</a>
+                              <a href="">Grievance policy</a>
+                              <a href="">Blog </a>
+                              <a href="">Bug bounty</a>
+                              <a href="">Privacy</a>
+                              <a href="">Terms & Conditions</a>
+                           </div>
+                        </Col>
+                        <Col md={12} lg={4}>
+                           <Row>
+                              <Col xs={6}>
+                                 <div className="businessColContent">
+                                    <h6>Become a Seller & Earn</h6>
+                                 </div>
+                              </Col>
+                              <Col xs={6}>
+                                 <div className="businessColContent">
+                                    <h6>Paytm for Business</h6>
+                                 </div>
+                              </Col>
+                           </Row>
+                        </Col>
+                     </Row>
                   </div>
                   <div className="questionFooter">
                      <div className="questionFooterInnerContent pt-5 pe-3">

@@ -1,3 +1,9 @@
+.businessCard {
+   /* width: 92%;
+   height: 100%; */
+
+   padding: 60px;
+}
 .businessContent {
    border: none;
    border-radius: 15px;
@@ -25,7 +31,49 @@
    color: black;
    font-size: 18px;
 }
-
 .bannerStyle {
    margin-right: -92px;
+}
+.bannerStyle img {
+   width: 433px;
+   height: 464px;
+}
+
+@media (max-width: 576px) {
+   .businessCard {
+      padding: 15px;
+      margin: 25px auto;
+   }
+   .businessContent {
+      margin: 0 auto;
+      padding: 20px;
+   }
+   .businessInnerContent {
+      margin: 0 auto;
+      text-align: center;
+      padding: 0;
+   }
+   .businessInnerContent h1 {
+      margin: 15px auto;
+      font-size: 26px;
+      text-align: center;
+      padding: 0;
+   }
+   .businessInnerContent p {
+      padding: 0;
+      margin-bottom: 30px;
+   }
+
+   .bannerStyle {
+      margin: 60px 0 50px auto;
+      text-align: center;
+   }
+
+   .bannerStyle img {
+      width: 233px;
+      height: 264px;
+      margin: 0 auto;
+      padding: auto 0;
+      text-align: center;
+   }
 }

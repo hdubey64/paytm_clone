@@ -1,26 +1,21 @@
-.accordionContent {
-   display: flex;
-   width: 100%;
-}
-
 .accordionContent p {
-   position: relative;
-   top: 6px;
-   min-width: max-content;
+   /* position: relative; */
+   /* min-width: max-content; */
    padding-right: 5px;
    font-size: 12px;
    font-weight: 700;
    color: #505050;
+   border: 1px Solid red;
 }
 
-.accordionContent div {
-   position: relative;
+/* .accordionContent div {
+   position: absolute;
    top: 24px;
    width: 100%;
    height: 1px;
    background-color: #ccc;
    font-size: 14px;
-}
+} */
 .invester {
    display: flex;
    flex-direction: row;
@@ -156,4 +151,26 @@ li {
 }
 .rechargeContent a:hover {
    color: black;
+}
+
+@media (max-width: 576px) {
+   .innerContent {
+      padding: 0;
+   }
+   .invester {
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .invester a {
+      justify-content: left;
+   }
+   .moreAbout {
+      text-align: justify;
+      padding: 0;
+   }
+   .askedColContent {
+      margin: 10px auto;
+   }
 }

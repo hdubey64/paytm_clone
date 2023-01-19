@@ -36,3 +36,21 @@
    font-size: 18px;
    margin-bottom: 20px;
 }
+.banner img {
+   width: 539px;
+   height: 460px;
+}
+
+@media (max-width: 576px) {
+   .content {
+      align-items: center;
+      padding: 25px 15px 25px 35px;
+   }
+   .banner img {
+      width: 250px;
+      height: 230px;
+      align-items: center;
+      border: 1px solid red;
+      padding: 20px;
+   }
+}

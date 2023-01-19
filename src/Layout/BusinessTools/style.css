@@ -11,3 +11,24 @@
 .businessToolsInnerContent {
    padding-left: 50px;
 }
+
+@media (max-width: 576px) {
+   .businessToolsSection {
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px Solid red;
+   }
+   .businessToolContent {
+      border: 1px solid yellow;
+   }
+   .businessToolsTag {
+      font-size: 28px;
+      padding: 0;
+      text-align: center;
+   }
+   .businessToolsInnerContent {
+      padding-left: 15px;
+      text-align: center;
+      margin: 10px auto;
+   }
+}

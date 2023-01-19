@@ -7,8 +7,8 @@ const CardSection = () => {
       <div className="cardSection">
          <Container>
             <Row className="cardContent">
-               <Col md-6 className="card innerContent me-4">
-                  <div className="p-4">
+               <Col md={12} lg={6} className="card innerContent">
+                  <div>
                      <img
                         src="	https://assetscdn1.paytm.com/images/catalog/view_item/853975/1640242865113.png"
                         alt=""
@@ -24,17 +24,15 @@ const CardSection = () => {
                      <img
                         src="https://assetscdn1.paytm.com/images/catalog/view_item/853975/1640241561388.png"
                         alt=""
-                        width={463}
                      />
                   </div>
                </Col>
-               <Col md-6 className="card innerContent ms-4 ">
-                  <div className="p-4">
+               <Col md={12} lg={6} className="card innerContent ">
+                  <div>
                      <img
                         src="	https://assetscdn1.paytm.com/images/catalog/view_item/853976/1640242163727.png"
                         alt=""
                         width={185}
-                        className="pt-5"
                      />
                      <h1>India’s Most Sincere Credit Card</h1>
                      <p>
@@ -46,8 +44,6 @@ const CardSection = () => {
                      <img
                         src="	https://assetscdn1.paytm.com/images/catalog/view_item/853976/1626079147084.png"
                         alt=""
-                        width={463}
-                        className="pt-2"
                      />
                   </div>
                </Col>

@@ -25,7 +25,19 @@
    font-size: 22px;
    color: black;
 }
-/* .cardBanner {
-   border: 1px solid green;
-   padding-bottom: -1000px;
-} */
+.cardBanner img {
+   width: 463px;
+}
+
+@media (max-width: 576px) {
+   .cardSection {
+      margin: 0 auto;
+      padding-bottom: 25px;
+   }
+   .cardBanner img {
+      width: 263px;
+   }
+   .innerContent {
+      margin: 20px auto;
+   }
+}

@@ -48,10 +48,10 @@ const Instrument = ({
                </div>
             </Col>
             <Col md-6 m-auto>
-               <div>
+               <div className="banner">
                   <img
                      src={banner}
-                     style={{ width: "539px", height: "460px" }}
+                     
                      alt=""
                   />
                </div>

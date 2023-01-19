@@ -9,3 +9,16 @@
    font-weight: 700;
    margin-bottom: 8px;
 }
+
+@media (max-width: 576px) {
+   .businessServicesSection {
+      padding: 20px 0;
+   }
+   .businessServicesTag {
+      font-size: 32px;
+      padding: 0;
+      text-align: center;
+
+      margin: 5px auto;
+   }
+}

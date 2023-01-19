@@ -13,12 +13,7 @@
    height: 12px;
    background-color: #002970;
 }
-.footerInnerContent {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin-bottom: 50px;
-}
+
 .head {
    display: flex;
    justify-content: center;
@@ -26,20 +21,21 @@
 }
 .headIcon {
    align-items: center;
-
    margin: 10px;
    margin-top: 20px;
 }
+.headIcon img {
+   width: 160px;
+   height: 53px;
+}
 .head h1 {
    font-size: 20px;
-
    font-weight: 700;
    align-items: center;
    margin-bottom: 15px;
 }
 .headSocial {
    width: 10%;
-
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -47,4 +43,56 @@
 
 hr {
    color: black;
+}
+@media (min-width: 900px) {
+   .footerInnerContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 576px) {
+   .footerSection {
+      margin-top: 20px;
+      padding: 20px;
+   }
+
+   .head h1 {
+      font-size: 17px;
+      margin-bottom: 0;
+   }
+
+   .headIcon {
+      align-items: center;
+      text-align: center;
+   }
+   .headIcon img:nth-child(1) {
+      margin-right: 10px;
+   }
+   .headIcon img:nth-child(2) {
+      margin-left: 10px;
+   }
+   .headIcon img {
+      width: 130px;
+      height: 50px;
+      margin: 0;
+      justify-content: space-between;
+   }
+
+   .headSocial {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 30px;
+      margin-top: 30px;
+   }
+
+   .headSocial svg {
+      width: 2rem !important;
+      height: 2rem !important;
+      fill: #707070;
+   }
 }

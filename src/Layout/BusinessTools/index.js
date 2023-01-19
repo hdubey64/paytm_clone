@@ -7,7 +7,7 @@ const BusinessTools = () => {
    return (
       <div className="businessToolsSection">
          <Container>
-            <div className="businessToolContent m-auto">
+            <div className="businessToolContent">
                <h1 className="businessToolsTag">
                   <text>
                      {" "}
@@ -20,8 +20,6 @@ const BusinessTools = () => {
                      <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854033/1626081565192.png"
-                           picWidth="240px"
-                           picHeight="220px"
                            h3Line1="POS Billing"
                            h3Line2="Software"
                            cardPara="Say Hello to Smart Retail Business Management"
@@ -31,8 +29,6 @@ const BusinessTools = () => {
                      <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854035/1626081071077.png"
-                           picWidth="240px"
-                           picHeight="220px"
                            h3Line1="Paytm for"
                            h3Line2="Business App"
                            cardPara="Everything you need to manage your business on your phone"
@@ -42,8 +38,6 @@ const BusinessTools = () => {
                      <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854036/1656568216166.png"
-                           picWidth="240px"
-                           picHeight="220px"
                            h3Line1="Advertise on"
                            h3Line2="Paytm"
                            cardPara="Grow your business by advertising on India’s largest mobile business"
@@ -53,8 +47,6 @@ const BusinessTools = () => {
                      <Col md={3} sm={6} xs={12} m-auto>
                         <ToolsCard
                            pic="	https://assetscdn1.paytm.com/images/catalog/view_item/854038/1626081814411.png"
-                           picWidth="240px"
-                           picHeight="220px"
                            h3Line1="Business"
                            h3Line2="Khata"
                            cardPara="Managing Khata made easy"

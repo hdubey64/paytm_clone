@@ -25,3 +25,30 @@
    height: 15px;
    top: 7px;
 }
+.toolsCard img {
+   width: 240px;
+   height: 220px;
+}
+
+@media (max-width: 576px) {
+   .toolsCardContent {
+      margin: 20px auto;
+   }
+   .toolsCardContent h3 {
+      font-size: 22px;
+
+      margin: 10px auto;
+   }
+   .toolsCardContent h3:nth-child(2) {
+      margin-bottom: -13px;
+   }
+   .toolsCardContent p {
+      font-size: 18px;
+      margin: 10px auto;
+   }
+   .toolsCard img {
+      width: 180px;
+      height: 160px;
+      margin: 0 auto;
+   }
+}

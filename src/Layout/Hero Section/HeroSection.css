@@ -15,7 +15,35 @@
    font-weight: 700;
    color: black;
 }
-
+.logo img {
+   width: 80px;
+}
 .heroBanner img {
    margin-right: -100px;
+   width: 528px;
+}
+
+@media (max-width: 576px) {
+   .heroContant {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border: 1px solid red;
+   }
+   .logo {
+      padding: 20px;
+   }
+   .heroTag {
+      font-size: 30px;
+      font-weight: 700;
+      color: black;
+      text-align: center;
+      border: 1px solid red;
+   }
+
+   .heroBanner img {
+      padding: 0 auto;
+      border: 1px solid red;
+      width: 228px;
+      text-align: center;
+   }
 }
