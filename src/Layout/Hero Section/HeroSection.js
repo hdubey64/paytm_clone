@@ -29,10 +29,8 @@ export const HeroSection = () => {
                      </dir>
                   </div>
                </Col>
-               <Col md={12} lg={6}>
-                  <div className="heroBanner">
-                     <img src={Photo} alt="" />
-                  </div>
+               <Col md={12} lg={6} className="heroBanner">
+                  <img src={Photo} alt="" />
                </Col>
             </Row>
          </Container>

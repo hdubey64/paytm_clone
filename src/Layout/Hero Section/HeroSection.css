@@ -7,63 +7,153 @@
    );
 }
 .heroContant {
-   padding-bottom: 50px;
-   margin-bottom: 50px;
+   padding: 20px;
 }
-.heroTag {
-   font-size: 54px;
-   font-weight: 700;
-   color: black;
+.logo {
+   padding-left: 80px;
+   margin: 20px auto;
 }
 .logo img {
    width: 80px;
 }
+
+.heroTag {
+   font-size: 48px;
+   font-weight: 700;
+   color: black;
+   margin: 30px auto;
+}
+.logo p {
+   font-size: 20px;
+   font-weight: 600;
+   padding: 10px auto;
+}
+.heroBanner {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
 .heroBanner img {
-   margin-right: -100px;
    width: 528px;
 }
 
-/* @media (max-width: 1399.98px) { ... }
-
-
-
-@media (max-width: 1199.98px) { ... }
-@media (max-width: 991.98px) { ... }
-*/
-
-@media (max-width: 767.98px) {
+@media (max-width: 1399.98px) {
    .heroContant {
-      border: 1px solid red;
       padding: 20px;
    }
-   .heroTag {
-      text-align: center;
+   .logo {
+      padding-left: 80px;
       margin: 20px auto;
    }
    .logo p {
+      font-size: 22px;
+      font-weight: 600;
+      padding: 10px auto;
+      margin-bottom: 60px;
+   }
+   .heroTag {
+      font-size: 48px;
+      margin: 30px auto;
+   }
+}
+
+@media (max-width: 1199.98px) {
+   .heroContant {
+      padding: 20px;
+   }
+
+   /* .logo {
+      padding-left: 80px;
+      margin: 20px auto;
+   } */
+   .heroTag {
+      font-size: 42px;
+      margin: 40px auto;
+   }
+
+   .logo p {
       font-size: 18px;
       font-weight: 600;
-      padding: 10px 25px;
-      text-align: justify;
-      margin-bottom: 40px;
+      padding: 10px auto;
+      margin-bottom: 60px;
    }
+   /*
    .appStoreButton {
       margin: 20px auto;
       text-align: center;
    }
    .heroBanner {
-      border: 1px solid red;
       text-align: center;
       display: flex;
       margin-top: 40px;
    }
 
    .heroBanner img {
-      border: 1px solid red;
+      padding: 0 auto;
+      width: 440px;
+      margin: 0 auto;
+   } */
+
+   .heroBanner img {
+      width: 328px;
+      text-align: end;
+   }
+}
+
+@media (max-width: 991.98px) {
+   .heroContant {
+      padding: 20px;
+   }
+   .logo {
+      padding-left: 0;
+      margin: 20px auto;
+   }
+   .heroTag {
+      font-size: 42px;
+      text-align: center;
+      margin: 20px auto;
+      padding: 0 60px;
+   }
+   .logo p {
+      padding: 10px 120px;
+      text-align: justify;
+      margin-bottom: 60px;
+   }
+   .appStoreButton {
+      margin: 20px auto;
+      text-align: center;
+   }
+   .heroBanner {
+      justify-content: center;
+   }
+
+   /* .heroBanner img {
+      width: 428px;
+   } */
+}
+
+@media (max-width: 767.98px) {
+   .logo p {
+      font-size: 18px;
+      padding: 10px 25px;
+   }
+   /*
+   .appStoreButton {
+      margin: 20px auto;
+      text-align: center;
+   }
+   .heroBanner {
+      text-align: center;
+      display: flex;
+      margin-top: 40px;
+   }
+
+   .heroBanner img {
       padding: 0 auto;
       width: 360px;
       margin: 0 auto;
-   }
+   } */
 }
 
 /* @media (min-width: 577px) {
@@ -89,9 +179,14 @@
    .heroTag {
       font-size: 36px;
    }
+
    .logo p {
-      font-size: 18px;
+      font-size: 16px;
    }
+   .heroBanner {
+      justify-content: center;
+   }
+
    .heroBanner img {
       width: 260px;
    }
