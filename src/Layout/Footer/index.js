@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 import { Container, Row, Col } from "reactstrap";
-import FooterAccordion from "../../Components/FooterAccordeien";
+import FooterAccordion from "../../Components/FooterAccordion";
 import "./style.css";
 
 const Footer = () => {

@@ -69,14 +69,23 @@
    padding-left: 10px;
 }
 
-.aboutColContent {
+.aboutRowContent {
    background-color: white;
-   display: flex;
+   /* display: flex;
    justify-content: space-between;
-   width: 72%;
-   align-items: center;
+   align-items: center; */
    border-radius: 10px;
-   padding: 20px 30px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+.aboutColContent {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+   align-items: center;
+   height: 100%;
+   margin: 0 auto;
 }
 .aboutColContent a {
    font-size: 12px;
@@ -85,22 +94,22 @@
 .aboutColContent a:hover {
    font-weight: 700;
 }
+
 .questionContentt {
    display: flex;
    justify-content: space-between;
 }
 
-.businessColContent {
+/* .businessColContent {
    display: flex;
-   width: 27%;
+} */
+.businessColContent {
+   border: 2px solid #85eefc;
+   border-radius: 5px;
 }
 .businessColContent h6 {
    font-size: 15px;
    font-weight: 700;
-   border: 2px solid #85eefc;
-   border-radius: 5px;
-   width: 170px;
-   padding: 30px 20px;
 }
 .businessColContent h6:hover {
    background-color: #85eefc;
@@ -158,10 +167,11 @@ li {
       padding: 0;
    }
    .invester {
-      height: 10vh;
+      height: 12vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      padding-left: 25px;
    }
    .invester a {
       justify-content: left;
@@ -172,5 +182,15 @@ li {
    }
    .askedColContent {
       margin: 10px auto;
+   }
+   .businessColContent h6 {
+      border-radius: 5px;
+      padding: 10px 15px;
+   }
+   .aboutColContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
    }
 }

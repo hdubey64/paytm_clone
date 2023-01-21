@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "reactstrap";
-import Profile from "../Assets/Imegas/ProfileSignIn.svg";
 import "./DownloadButton.css";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 

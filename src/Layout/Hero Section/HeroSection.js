@@ -16,18 +16,20 @@ export const HeroSection = () => {
                <Col md={12} lg={6}>
                   <div className="logo">
                      <img src={Logo2} alt="" />
-                     <h1 className="mt-5 heroTag">
+                     <h1 className="heroTag">
                         India's Most-loved Payments App
                      </h1>
-                     <p className="mt-2 fs-5 fw-bold">
+                     <p className="my-3">
                         Recharge & pay bills, book flights & movie tickets, open
                         a savings account, invest in stocks & mutual funds, and
                         do a lot more.
                      </p>
-                     <DownloadButton />
+                     <dir className="appStoreButton">
+                        <DownloadButton />
+                     </dir>
                   </div>
                </Col>
-               <Col md={12} lg={6} className=" pt-4">
+               <Col md={12} lg={6}>
                   <div className="heroBanner">
                      <img src={Photo} alt="" />
                   </div>

@@ -23,27 +23,76 @@
    width: 528px;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 1399.98px) { ... }
+
+
+
+@media (max-width: 1199.98px) { ... }
+@media (max-width: 991.98px) { ... }
+*/
+
+@media (max-width: 767.98px) {
    .heroContant {
-      padding-bottom: 20px;
-      margin-bottom: 20px;
       border: 1px solid red;
-   }
-   .logo {
       padding: 20px;
    }
    .heroTag {
-      font-size: 30px;
-      font-weight: 700;
-      color: black;
       text-align: center;
+      margin: 20px auto;
+   }
+   .logo p {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10px 25px;
+      text-align: justify;
+      margin-bottom: 40px;
+   }
+   .appStoreButton {
+      margin: 20px auto;
+      text-align: center;
+   }
+   .heroBanner {
       border: 1px solid red;
+      text-align: center;
+      display: flex;
+      margin-top: 40px;
    }
 
    .heroBanner img {
-      padding: 0 auto;
       border: 1px solid red;
-      width: 228px;
-      text-align: center;
+      padding: 0 auto;
+      width: 360px;
+      margin: 0 auto;
+   }
+}
+
+/* @media (min-width: 577px) {
+   .heroContant {
+      margin-bottom: 20px;
+   }
+
+   .heroTag {
+      font-size: 36px;
+   }
+   .logo p {
+      font-size: 18px;
+   }
+   .heroBanner img {
+      width: 260px;
+   }
+} */
+@media (max-width: 576px) {
+   .heroContant {
+      margin-bottom: 20px;
+   }
+
+   .heroTag {
+      font-size: 36px;
+   }
+   .logo p {
+      font-size: 18px;
+   }
+   .heroBanner img {
+      width: 260px;
    }
 }

@@ -56,7 +56,7 @@ hr {
 @media (max-width: 576px) {
    .footerSection {
       margin-top: 20px;
-      padding: 20px;
+      padding: 10px;
    }
 
    .head h1 {

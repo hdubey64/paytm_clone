@@ -224,25 +224,29 @@ const FooterAccordions = () => {
                         </Col>
                      </Row>
                   </div>
-                  <div className="questionContentt pt-3">
+                  <div className="questionContent pt-3">
                      <Row>
-                        <Col md={12} lg={8}>
-                           <div className="aboutColContent">
-                              <a href="">About us</a>
-                              <a href="">24x7 Help</a>
-                              <a href="">Partner with us</a>
-                              <a href="">Grievance policy</a>
-                              <a href="">Blog </a>
-                              <a href="">Bug bounty</a>
-                              <a href="">Privacy</a>
-                              <a href="">Terms & Conditions</a>
-                           </div>
+                        <Col md={9} lg={9}>
+                           <Row className="aboutRowContent">
+                              <Col xs={6} className="invester">
+                                 <a href="">About us</a>
+                                 <a href="">24x7 Help</a>
+                                 <a href="">Partner with us</a>
+                                 <a href="">Grievance policy</a>
+                              </Col>
+                              <Col xs={6} className="invester">
+                                 <a href="">Blog </a>
+                                 <a href="">Bug bounty</a>
+                                 <a href="">Privacy</a>
+                                 <a href="">Terms & Conditions</a>
+                              </Col>
+                           </Row>
                         </Col>
-                        <Col md={12} lg={4}>
+                        <Col md={3} lg={3}>
                            <Row>
                               <Col xs={6}>
                                  <div className="businessColContent">
-                                    <h6>Become a Seller & Earn</h6>
+                                    <h6>Become a Seller & Earn </h6>
                                  </div>
                               </Col>
                               <Col xs={6}>
@@ -255,74 +259,81 @@ const FooterAccordions = () => {
                      </Row>
                   </div>
                   <div className="questionFooter">
-                     <div className="questionFooterInnerContent pt-5 pe-3">
-                        <h6>Be Safe. Be Vigilant</h6>
-                        <p>
-                           Please do not share your Paytm Wallet password,
-                           Credit/Debit card pin, other confidential information
-                           with anyone even if he/she claims to be from Paytm.
-                           We advise our customers to completely ignore such
-                           communications & report to us at
-                           cybercell@paytmbank.com
-                        </p>
-                     </div>
-
-                     <div className="questionFooterInnerContent pt-5 px-3">
-                        <h6>Disclaimers</h6>
-                        <p>
-                           Paytm Wallet is issued by Paytm Payments Bank Limited
-                        </p>
-                        <p>
-                           Cashback is 'Paytm wallet loyalty cashback' given by
-                           'Pay with Paytm' payment platform. It can be used to
-                           pay for goods & services sold by merchants that
-                           accept 'Pay with Paytm'
-                        </p>
-                     </div>
-
-                     <div className="questionFooterInnerContent pt-5 ps-3">
-                        <h6>Bank Grade Security with</h6>
-                        <div className="footerPic pt-4 ">
-                           <img
-                              src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/americanExpress.png"
-                              alt=""
-                              width={99}
-                              height={25}
-                           />
-                           <img
-                              src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/dinerClub.svg"
-                              alt=""
-                              width={27}
-                              height={25}
-                           />
-                           <img
-                              src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/pci.svg"
-                              alt=""
-                              width={61}
-                              height={25}
-                           />
-                        </div>
-                        <div className="footerPic pt-4">
-                           <img
-                              src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/visa.svg"
-                              alt=""
-                              width={56}
-                              height={25}
-                           />
-                           <img
-                              src="		https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/ruPay.svg"
-                              alt=""
-                              width={94}
-                              height={25}
-                           />
-                           <img
-                              src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/mastercard.svg"
-                              alt=""
-                              width={72}
-                              height={25}
-                           />
-                        </div>
-                     </div>
+                     <Row>
+                        <Col sm={12} md={4}>
+                           <div className="questionFooterInnerContent pt-3">
+                              <h6>Be Safe. Be Vigilant</h6>
+                              <p>
+                                 Please do not share your Paytm Wallet password,
+                                 Credit/Debit card pin, other confidential
+                                 information with anyone even if he/she claims
+                                 to be from Paytm. We advise our customers to
+                                 completely ignore such communications & report
+                                 to us at cybercell@paytmbank.com
+                              </p>
+                           </div>
+                        </Col>
+                        <Col sm={12} md={4}>
+                           <div className="questionFooterInnerContent">
+                              <h6>Disclaimers</h6>
+                              <p>
+                                 Paytm Wallet is issued by Paytm Payments Bank
+                                 Limited
+                              </p>
+                              <p>
+                                 Cashback is 'Paytm wallet loyalty cashback'
+                                 given by 'Pay with Paytm' payment platform. It
+                                 can be used to pay for goods & services sold by
+                                 merchants that accept 'Pay with Paytm'
+                              </p>
+                           </div>
+                        </Col>
+                        <Col sm={12} md={4}>
+                           <div className="questionFooterInnerContent  pt-3">
+                              <h6>Bank Grade Security with</h6>
+                              <div className="footerPic pt-4 ">
+                                 <img
+                                    src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/americanExpress.png"
+                                    alt=""
+                                    width={99}
+                                    height={25}
+                                 />
+                                 <img
+                                    src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/dinerClub.svg"
+                                    alt=""
+                                    width={27}
+                                    height={25}
+                                 />
+                                 <img
+                                    src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/pci.svg"
+                                    alt=""
+                                    width={61}
+                                    height={25}
+                                 />
+                              </div>
+                              <div className="footerPic pt-4">
+                                 <img
+                                    src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/visa.svg"
+                                    alt=""
+                                    width={56}
+                                    height={25}
+                                 />
+                                 <img
+                                    src="		https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/ruPay.svg"
+                                    alt=""
+                                    width={94}
+                                    height={25}
+                                 />
+                                 <img
+                                    src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/mastercard.svg"
+                                    alt=""
+                                    width={72}
+                                    height={25}
+                                 />
+                              </div>
+                           </div>
+                        </Col>
+                     </Row>
                   </div>
                </div>
             </AccordionDetails>
@@ -338,59 +349,67 @@ const FooterAccordions = () => {
                <AccordianTitle>Company</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4 pe-5 me-5">
-                  <a href="#">About US </a>
-                  <a href="#">CSR</a> <a href="#">Blog</a>
-                  <a href="#">Contact Us </a> <a href="#">Terms & Conditions</a>
-                  <a href="#">Sustainability</a>{" "}
-               </div>
+               <Row>
+                  <Col xs={6} className="invester">
+                     <a href="#">About US </a>
+                     <a href="#">CSR</a>
+                     <a href="#">Blog</a>
+                  </Col>
+                  <Col xs={6} className="invester">
+                     <a href="#">Contact Us </a>
+                     <a href="#">Terms & Conditions</a>
+                     <a href="#">Sustainability</a>{" "}
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
-            expanded={expanded === "panel4"}
-            onChange={handleChange("panel4")}
+            expanded={expanded === "panel15"}
+            onChange={handleChange("panel15")}
          >
             <AccordionSummary
-               aria-controls="panel4d-content"
-               id="panel4d-header"
+               aria-controls="panel15d-content"
+               id="panel15d-header"
             >
                <AccordianTitle>Recharge & pay bills</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="invester">
-                  <div className="rechargeContent ">
+               <Row>
+                  <Col xs={6} className="invester">
                      <a href="#">Mobile Recharge </a>
                      <a href="#">Mobile Bill Payment</a>{" "}
                      <a href="#">Datacard Recharge</a>
-                  </div>
-                  <div className="rechargeContent ">
-                     <a href="#">Datacard Bill Payment </a>{" "}
-                     <a href="#">Dth Recharge</a>
-                     <a href="#">Electricity Bill Payment</a>{" "}
-                  </div>
-                  <div className="rechargeContent ">
-                     <a href="#">Landline Bill Payment </a>
-                     <a href="#">Broadband Bill Payment</a>{" "}
-                     <a href="#">Gas Bill Payment</a>
-                  </div>
-
-                  <div className="rechargeContent ">
+                  </Col>
+                  <Col xs={6} className="invester">
                      <a href="#">Water Bill Payment </a>{" "}
                      <a href="#">Metro Card Recharge</a>
                      <a href="#">Municipal Recharge </a>{" "}
-                  </div>
-
-                  <div className="rechargeContent  ">
+                  </Col>
+               </Row>
+               <Row className="mt-3">
+                  <Col xs={6} className="invester">
+                     <a href="#">Datacard Bill Payment </a>{" "}
+                     <a href="#">Dth Recharge</a>
+                     <a href="#">Electricity Bill Payment</a>{" "}
+                  </Col>
+                  <Col xs={6} className="invester">
                      <a href="#">Toll Recharge </a>
                      <a href="#">Credit Bill Payment</a>{" "}
                      <a href="#">Cabletv Recharge</a>
-                  </div>
-                  <div className="rechargeContent  ">
+                  </Col>
+               </Row>
+               <Row className="mt-3">
+                  <Col xs={6} className="invester">
+                     <a href="#">Landline Bill Payment </a>
+                     <a href="#">Broadband Bill Payment</a>{" "}
+                     <a href="#">Gas Bill Payment</a>
+                  </Col>
+                  <Col xs={6} className="invester">
                      <a href="#">Devotion Rental </a>{" "}
                      <a href="#">Bill Payment</a>
                      <a href="#">Fastag Recharge</a>{" "}
-                  </div>
-               </div>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -406,10 +425,14 @@ const FooterAccordions = () => {
                </AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4 pe-5 me-5">
-                  <a href="#">Pay Loan EMI</a>
-                  <a href="#">Pay Insurance Premium</a>{" "}
-               </div>
+               <Row>
+                  <Col xm={6} className="invester">
+                     <a href="#">Pay Insurance Premium</a>{" "}
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Pay Loan EMI</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -423,16 +446,26 @@ const FooterAccordions = () => {
                <AccordianTitle>Book Travel & Entertainment</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4">
-                  <a href="#">Movie Ticket Booking</a>{" "}
-                  <a href="#">Bus Ticket Booking</a>
-                  <a href="#">Flight Tickets Booking</a>{" "}
-                  <a href="#">Train Ticket Booking</a>{" "}
-                  <a href="#">Events Booking</a>
-                  <a href="#">Upcoming Movies</a>
-                  <a href="#">Trains Sitemap</a>
-                  <a href="#">Bus Sitemap</a>
-               </div>
+               <Row>
+                  <Col xm={6} className="invester">
+                     <a href="#">Movie Ticket Booking</a>{" "}
+                     <a href="#">Bus Ticket Booking</a>
+                     <a href="#">Flight Tickets Booking</a>{" "}
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Events Booking</a>
+                     <a href="#">Upcoming Movies</a>
+                     <a href="#">Trains Sitemap</a>
+                  </Col>
+               </Row>
+               <Row className="mt-3">
+                  <Col xm={6} className="invester">
+                     <a href="#">Train Ticket Booking</a>{" "}
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Bus Sitemap</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -446,10 +479,14 @@ const FooterAccordions = () => {
                <AccordianTitle>Investments & Miscellaneous</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4">
-                  <a href="#">Mutual Fund Investments</a>{" "}
-                  <a href="#">Miscellaneous</a>
-               </div>
+               <Row className="mt-3">
+                  <Col xm={6} className="invester">
+                     <a href="#">Mutual Fund Investments</a>{" "}
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Miscellaneous</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -465,13 +502,17 @@ const FooterAccordions = () => {
                </AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4">
-                  <a href="#">Car Insurance</a>
-                  <a href="#">Two Wheeler Insurance</a>
-                  <a href="#">Health Insurance</a>
-                  <a href="#">Life Insurance</a>
-                  <a href="#">Term Insurance</a>
-               </div>
+               <Row className="mt-3">
+                  <Col xm={6} className="invester">
+                     <a href="#">Car Insurance</a>
+                     <a href="#">Two Wheeler Insurance</a>
+                     <a href="#">Health Insurance</a>
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Life Insurance</a>
+                     <a href="#">Term Insurance</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -485,12 +526,16 @@ const FooterAccordions = () => {
                <AccordianTitle>Loans and Credit Cards</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4">
-                  <a href="#">Postpaid</a>
-                  <a href="#">Credit Card</a>
-                  <a href="#">Personal Loan</a>
-                  <a href="#">Credit Report</a>
-               </div>
+               <Row>
+                  <Col xm={6} className="invester">
+                     <a href="#">Postpaid</a>
+                     <a href="#">Credit Card</a>
+                     <a href="#">Personal Loan</a>
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">Credit Report</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
          <Accordion
@@ -504,15 +549,19 @@ const FooterAccordions = () => {
                <AccordianTitle>Financial Tools & Calculators</AccordianTitle>
             </AccordionSummary>
             <AccordionDetails>
-               <div className="innorContent invester ps-4">
-                  <a href="#">EMI Calculator</a>
-                  <a href="#">Personal Loan EMI Calculator</a>
-                  <a href="#">Home Loan EMI Calculator</a>
-                  <a href="#">Car Loan EMI Calculator</a>
-                  <a href="#">IFSC Code Finder</a>
-                  <a href="#">Financial Tools & Calculators</a>
-                  <a href="#">Currency Converter</a>
-               </div>
+               <Row>
+                  <Col xm={6} className="invester">
+                     <a href="#">EMI Calculator</a>
+                     <a href="#">Personal Loan EMI Calculator</a>
+                     <a href="#">Home Loan EMI Calculator</a>
+                     <a href="#">Car Loan EMI Calculator</a>
+                  </Col>
+                  <Col xm={6} className="invester">
+                     <a href="#">IFSC Code Finder</a>
+                     <a href="#">Financial Tools & Calculators</a>
+                     <a href="#">Currency Converter</a>
+                  </Col>
+               </Row>
             </AccordionDetails>
          </Accordion>
       </div>
