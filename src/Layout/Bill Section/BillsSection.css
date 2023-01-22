@@ -1,8 +1,14 @@
 .bills {
    padding: 60px;
    background-color: #01bdf2;
+   overflow: auto;
+   resize: both;
+   border: 1px Solid red;
 }
-.bills h1 {
+.billsContent {
+   border: 1px Solid red;
+}
+.billsContent h1 {
    color: white;
    font-size: 36px;
    font-weight: 700;
@@ -11,21 +17,50 @@
    padding-top: 30px;
    display: flex;
    align-items: flex-start;
+   flex-wrap: wrap;
+   gap: 10px;
 }
 
-/* // X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
+@media (max-width: 1399.98px) {
+   .bills {
+      padding: 10px;
+      background-color: #01bdf2;
+   }
+   .billsCard {
+      justify-content: center;
+      gap: 30px;
+   }
+}
 
-
-// Large devices (desktops, less than 1200px)
+/*
 @media (max-width: 1199.98px) { ... }
+*/
 
+@media (max-width: 991.98px) {
+   .billsContent h1 {
+      font-size: 32px;
+   }
+}
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+@media (max-width: 767.98px) {
+   .billsContent {
+      padding: 0px 30px;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .billsContent h1 {
+      padding: 20px 60px;
+      font-size: 28px;
+   }
+}
 
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-// X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... } */
+@media (max-width: 575.98px) {
+   .bills {
+      padding: 10px;
+      background-color: #01bdf2;
+   }
+   .billsContent {
+      padding: 10px;
+      text-align: center;
+   }
+}

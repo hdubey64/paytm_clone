@@ -5,47 +5,69 @@ import "./BillsSection.css";
 
 const cardData = [
    {
-      buttonText: "Recharge Prepaid Mobile >",
+      buttonText: {
+         lineOne: "Recharge",
+         lineTwo: "Prepaid",
+         lineThree: "Mobile >",
+      },
       img: "https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png",
-      className: "cardBtn-2",
    },
    {
-      buttonText: "Pay Electricity Bill >",
+      buttonText: {
+         lineOne: "Pay",
+         lineTwo: "Electricity",
+         lineThree: "Bill >",
+      },
       img: "https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png",
-      className: "cardBtn-2",
    },
    {
-      buttonText: "Recharge DTH Conection >",
+      buttonText: {
+         lineOne: "Recharge",
+         lineTwo: " DTH",
+         lineThree: "Conection >",
+      },
       img: "	https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png",
-      classNam: "cardBtn-2",
-   },
-   {
-      buttonText: "Book Gas Cylinder >",
-      img: "	https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png",
-      className: "cardBtn-2",
    },
 
    {
-      buttonText: "Pay Broadband & Landline Bill >",
+      buttonText: {
+         lineOne: "Book",
+         lineTwo: "Gas",
+         lineThree: "Cylinder >",
+      },
+      img: "	https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png",
+   },
+
+   {
+      buttonText: {
+         lineOne: "Pay",
+         lineTwo: "Broadband &",
+         lineThree: "Landline Bill >",
+      },
       img: "https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png",
-      className: "cardBtn-2",
    },
    {
-      buttonText: "Pay Eduction Fee >",
+      buttonText: {
+         lineOne: "Pay",
+         lineTwo: "Education",
+         lineThree: "Fee >",
+      },
       img: "	https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png",
-      className: "cardBtn-2",
    },
    {
-      buttonText: "All Payment Servicese >",
+      buttonText: {
+         lineOne: "All",
+         lineTwo: "Payment",
+         lineThree: "Servicese >",
+      },
       img: "https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png",
-      className: "cardBtn-2",
    },
 ];
 
 const BillsSection = () => {
    return (
       <div className="bills">
-         <Container>
+         <Container className="billsContent">
             <h1>Reacharge & pay Bills On Paytm.</h1>
             <div className="billsCard">
                {cardData.map((item) => (
@@ -53,7 +75,6 @@ const BillsSection = () => {
                      key={item.img}
                      buttonText={item.buttonText}
                      img={item.img}
-                     className={item.className}
                   />
                ))}
             </div>
