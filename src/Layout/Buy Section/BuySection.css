@@ -1,7 +1,32 @@
 .buy {
    padding: 60px;
+   background-color: #002970;
+   overflow: auto;
+   resize: both;
+   border: 1px Solid red;
+}
+.buyContent {
+   border: 1px Solid red;
+}
+.buyContent h1 {
+   color: white;
+   font-size: 36px;
+   font-weight: 700;
+}
+.buyCard {
+   padding-top: 30px;
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+/* .buy {
+   padding: 60px;
    margin-bottom: 30px;
    background-color: #002970;
+}
+.buyContent {
+   border: 1px Solid red;
 }
 .buy h1 {
    color: white;
@@ -12,4 +37,39 @@
    padding-top: 30px;
    display: flex;
    align-items: flex-start;
+   flex-wrap: wrap;
+   gap: 10px;
+} */
+
+@media (max-width: 1399.98px) {
+   .buy {
+      padding: 60px 10px;
+   }
+   .buyCard {
+      justify-content: center;
+      gap: 30px;
+   }
+}
+@media (max-width: 991.98px) {
+   .buyContent h1 {
+      text-align: center;
+      font-size: 32px;
+   }
+}
+@media (max-width: 767.98px) {
+   .buyContent {
+      padding: 0px 30px;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .buyContent h1 {
+      padding: 20px 60px;
+      font-size: 28px;
+   }
+}
+@media (max-width: 575.98px) {
+   .buyContent {
+      padding: 10px;
+      text-align: center;
+   }
 }
