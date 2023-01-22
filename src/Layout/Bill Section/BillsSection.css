@@ -23,8 +23,7 @@
 
 @media (max-width: 1399.98px) {
    .bills {
-      padding: 10px;
-      background-color: #01bdf2;
+      padding: 60px 10px;
    }
    .billsCard {
       justify-content: center;
@@ -38,6 +37,7 @@
 
 @media (max-width: 991.98px) {
    .billsContent h1 {
+      text-align: center;
       font-size: 32px;
    }
 }
@@ -55,10 +55,6 @@
 }
 
 @media (max-width: 575.98px) {
-   .bills {
-      padding: 10px;
-      background-color: #01bdf2;
-   }
    .billsContent {
       padding: 10px;
       text-align: center;
