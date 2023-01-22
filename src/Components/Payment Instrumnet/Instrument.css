@@ -1,19 +1,22 @@
 .content {
+   background-color: white;
    border: none;
-   border-radius: 15px;
+   border-radius: 5px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   padding: 80px 50px 80px 115px;
+   padding: 80px;
+   border: 1px solid red;
+   margin: 50px auto;
 }
 .center-card {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   margin: auto;
+   padding: 20px;
 }
 .logoTag {
-   padding-left: 50px;
    display: flex;
 }
 .logoTag h6 {
@@ -21,24 +24,91 @@
    color: black;
    font-weight: 700;
 }
-.watToPay {
-   margin: 0, auto;
-   padding-left: 50px;
-}
-.watToPay h1 {
+.center-card h1 {
    color: black;
    font-size: 36px;
    font-weight: 700;
-   /* margin-bottom: 20px; */
+   margin: 2px auto;
+   padding-right: 140px;
 }
-.watToPay p {
+.center-card p {
    color: black;
    font-size: 18px;
-   margin-bottom: 20px;
+   font-weight: 600;
+   margin: 20px auto;
+   text-align: justify;
+   padding-right: 60px;
 }
 .banner img {
    width: 539px;
    height: 460px;
+}
+@media (max-width: 1399.98px) {
+   .center-card h1 {
+      font-size: 28px;
+      margin: 10px auto;
+   }
+   .center-card p {
+      margin: 10px auto;
+      margin-bottom: 30px;
+   }
+   .banner img {
+      width: 489px;
+      height: 410px;
+      align-items: center;
+      padding: 20px;
+   }
+}
+@media (max-width: 1199.98px) {
+   .logoTag {
+      padding-left: 0px;
+   }
+   .center-card h1 {
+      font-size: 24px;
+      padding-right: 25px;
+   }
+   .center-card p {
+      padding-right: 30px;
+      padding: 0;
+   }
+   .center-card {
+      margin: 0, auto;
+      padding: 20px 30px;
+   }
+   .banner img {
+      width: 429px;
+      height: 350px;
+      padding: 0;
+   }
+}
+@media (max-width: 991.98px) {
+   .banner {
+      text-align: center;
+   }
+   .center-card h1 {
+      text-align: center;
+   }
+   .center-card p {
+      text-align: center;
+   }
+   .downloadBtn {
+      text-align: center;
+   }
+   .banner img {
+      margin: 30px auto;
+      width: 539px;
+      height: 460px;
+   }
+}
+@media (max-width: 767.98px) {
+   .content {
+      padding: 20px;
+   }
+   .banner img {
+      margin: 30px auto;
+      width: 439px;
+      height: 360px;
+   }
 }
 
 @media (max-width: 576px) {
@@ -47,10 +117,7 @@
       padding: 25px 15px 25px 35px;
    }
    .banner img {
-      width: 250px;
-      height: 230px;
-      align-items: center;
-      border: 1px solid red;
-      padding: 20px;
+      width: 389px;
+      height: 310px;
    }
 }
