@@ -8,6 +8,7 @@
 }
 .heroContant {
    padding: 20px;
+   border: 1px solid red;
 }
 .logo {
    padding-left: 80px;
@@ -108,6 +109,9 @@
    .logo {
       padding-left: 0;
       margin: 20px auto;
+   }
+   .logo img {
+      display: none;
    }
    .heroTag {
       font-size: 42px;
