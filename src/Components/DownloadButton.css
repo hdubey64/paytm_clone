@@ -4,6 +4,7 @@
    border: 1.5px solid black;
    border-radius: 25px;
    color: white;
+   max-width: 300px;
 }
 
 .download:hover {
