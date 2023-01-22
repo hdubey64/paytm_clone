@@ -15,12 +15,9 @@ const Instrument = ({
    cardButton = <DownloadButton />,
 }) => {
    return (
-      <div
-         className="card content mt-5 m-auto"
-         style={{ width: " 92%", height: "100%" }}
-      >
+      <div className=" content">
          <Row>
-            <Col md-6 m-auto>
+            <Col md={12} lg={6} className="m-auto">
                <div className="center-card">
                   <div className="logoTag">
                      <img
@@ -39,21 +36,15 @@ const Instrument = ({
                         </text>
                      </h6>
                   </div>
-                  <div className="watToPay">
-                     <h1 className="card-title mt-3 me-4  ">{tagLine}</h1>
-                     <p className="card-text mb-5">{saySomthing}</p>
 
-                     {cardButton}
-                  </div>
+                  <h1>{tagLine}</h1>
+                  <p>{saySomthing}</p>
+                  <div className="downloadBtn">{cardButton}</div>
                </div>
             </Col>
-            <Col md-6 m-auto>
+            <Col md={12} lg={6} className="m-auto">
                <div className="banner">
-                  <img
-                     src={banner}
-                     
-                     alt=""
-                  />
+                  <img src={banner} alt="" />
                </div>
             </Col>
          </Row>
