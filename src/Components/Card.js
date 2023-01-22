@@ -8,7 +8,7 @@ const Card = ({
    btnClassName = "",
 }) => {
    return (
-      <div className={`${className} card cardColor`}>
+      <div className={`${className} card`}>
          <div className="imgAlign">
             <img
                src={img}
