@@ -75,6 +75,7 @@ const BillsSection = () => {
                      key={item.img}
                      buttonText={item.buttonText}
                      img={item.img}
+                     className="cardColor"
                   />
                ))}
             </div>
