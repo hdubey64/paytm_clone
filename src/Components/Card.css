@@ -1,3 +1,7 @@
+.card {
+   width: 166px;
+   height: 186px;
+}
 .cardBtn {
    color: white;
    font-weight: 700;
@@ -6,6 +10,25 @@
    padding-left: -100px;
    margin-left: 0;
 }
+.cardColor {
+   border: none;
+   background-color: transparent;
+   background-color: #01bdf2;
+   border: 1px solid red;
+}
+.imgAlign {
+   padding: 10px 0 0 10px;
+   border: 1px solid green;
+}
+.cardLink {
+   display: flex;
+   flex-direction: column;
+}
+
+.cardLink:hover a {
+   color: white;
+}
+
 .cardBtn-2 {
    color: white;
    font-weight: 600;
@@ -22,9 +45,20 @@
 .card.darkBlue:hover {
    background-color: #00000022;
 }
+/*
 
-.cardColor {
-   border: none;
-   background-color: transparent;
-   /* background-color: #01bdf2; */
+@media (max-width: 1399.98px) {
+   ...;
 }
+
+@media (max-width: 1199.98px) { ... }
+
+
+
+@media (max-width: 991.98px) { ... }
+
+
+
+@media (max-width: 767.98px) { ... }
+
+@media (max-width: 575.98px) { ... } */
