@@ -51,19 +51,21 @@ const PaytmWallet = () => {
       <div className="walletSection">
          <Container>
             <h1 className="walletTag">Paytm Payment Instruments</h1>
-            {instrumentData.map((item) => (
-               <Instrument
-                  key={item.img}
-                  img={item.img}
-                  title={item.title}
-                  title2={item.title2}
-                  tagLine={item.tagLine}
-                  saySomthing={item.saySomthing}
-                  banner={item.banner}
-                  bannerWidth={item.bannerWidth}
-                  bannerHight={item.bannerHight}
-               />
-            ))}
+            <div className="walletContent">
+               {instrumentData.map((item) => (
+                  <Instrument
+                     key={item.img}
+                     img={item.img}
+                     title={item.title}
+                     title2={item.title2}
+                     tagLine={item.tagLine}
+                     saySomthing={item.saySomthing}
+                     banner={item.banner}
+                     bannerWidth={item.bannerWidth}
+                     bannerHight={item.bannerHight}
+                  />
+               ))}
+            </div>
          </Container>
       </div>
    );

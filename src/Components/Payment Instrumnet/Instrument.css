@@ -4,7 +4,7 @@
    border-radius: 5px;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+
    align-items: center;
    padding: 80px;
    border: 1px solid red;
@@ -29,7 +29,10 @@
    font-size: 36px;
    font-weight: 700;
    margin: 2px auto;
-   padding-right: 140px;
+   /* padding-right: 140px;
+
+ */
+   border: 1px solid red;
 }
 .center-card p {
    color: black;
@@ -82,10 +85,14 @@
    }
 }
 @media (max-width: 991.98px) {
+   .content {
+      padding: 10px;
+   }
    .banner {
       text-align: center;
    }
    .center-card h1 {
+      padding-right: 0;
       text-align: center;
    }
    .center-card p {
@@ -102,7 +109,7 @@
 }
 @media (max-width: 767.98px) {
    .content {
-      padding: 20px;
+      padding: 10px;
    }
    .banner img {
       margin: 30px auto;
@@ -114,10 +121,20 @@
 @media (max-width: 576px) {
    .content {
       align-items: center;
-      padding: 25px 15px 25px 35px;
+      padding: 10px;
    }
    .banner img {
       width: 389px;
       height: 310px;
+   }
+}
+@media (max-width: 450px) {
+   .content {
+      align-items: center;
+      padding: 10px;
+   }
+   .banner img {
+      width: 300px;
+      height: 220px;
    }
 }

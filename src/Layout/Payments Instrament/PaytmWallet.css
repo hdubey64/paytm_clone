@@ -10,10 +10,14 @@
    font-weight: 700;
    margin-bottom: 8px;
 }
+.walletContent {
+   border: 1px solid cyan;
+   padding: 10px;
+}
 
 @media (max-width: 576px) {
    .walletSection {
-      padding: 20px 0;
+      /* padding: 20px 0; */
       border: 1px solid green;
    }
    .walletTag {
