@@ -14,8 +14,13 @@
    border: none;
    background-color: transparent;
    background-color: #01bdf2;
-   border: 1px solid red;
 }
+.darkBlueColor {
+   border: none;
+   background-color: transparent;
+   background-color: #002970;
+}
+
 .imgAlign {
    padding: 10px 0 0 10px;
    border: 1px solid green;
@@ -38,11 +43,11 @@
    margin-left: 0;
 }
 
-.card.lightBlue:hover {
+.card.cardColor:hover {
    background-color: #00afe3;
 }
 
-.card.darkBlue:hover {
+.card.darkBlueColor:hover {
    background-color: #00000022;
 }
 /*
