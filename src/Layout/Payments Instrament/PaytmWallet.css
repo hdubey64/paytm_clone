@@ -14,6 +14,12 @@
    border: 1px solid cyan;
    padding: 10px;
 }
+@media (max-width: 991.98px) {
+   .walletTag {
+      text-align: center;
+      padding-left: 0;
+   }
+}
 
 @media (max-width: 576px) {
    .walletSection {
@@ -21,11 +27,11 @@
       border: 1px solid green;
    }
    .walletTag {
-      font-size: 24px;
-      color: black;
-      padding-left: 15px;
-      font-weight: 700;
-      margin-bottom: 4px;
+      font-size: 36px;
+      text-align: center;
+      padding-left: 0;
+      padding: 20px;
+      margin: 20px auto;
       border: 1px solid green;
    }
 }
