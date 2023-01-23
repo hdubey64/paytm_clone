@@ -12,25 +12,29 @@ const FinancialSection = () => {
                <h1 className="mb-5">Financial Services by Paytm</h1>
                <div className="financialContent">
                   <Row>
-                     <Col>
-                        <div className="financialInnerContent">
-                           <img
-                              src="	https://assetscdn1.paytm.com/images/catalog/view/307193/1617696576778.png"
-                              alt=""
-                              width={212}
-                           />
-                           <h1>India's most sincere bank.</h1>
-                           <p>
-                              Paytm Payments Bank offers secure, transparent and
-                              risk-free banking at your fingertips. With instant
-                              account opening, virtual debit card and zero
-                              balance requirements, experience the future of
-                              banking today.
-                           </p>
+                     <Col md={12} lg={6}>
+                        <div className="financialColContent">
+                           <div className="financialInnerContent">
+                              <img
+                                 src="	https://assetscdn1.paytm.com/images/catalog/view/307193/1617696576778.png"
+                                 alt=""
+                                 width={212}
+                                 className="paymentBank"
+                              />
+                              <h1>India's most sincere bank.</h1>
+                              <p>
+                                 Paytm Payments Bank offers secure, transparent
+                                 and risk-free banking at your fingertips. With
+                                 instant account opening, virtual debit card and
+                                 zero balance requirements, experience the
+                                 future of banking today.
+                              </p>
+                           </div>
+
                            <LearnMoreButton />
                         </div>
                      </Col>
-                     <Col>
+                     <Col md={12} lg={6}>
                         <div className="financialInnerContent bannerFinancialContent">
                            <img
                               src="https://assetscdn1.paytm.com/images/catalog/view_item/728826/1626076427497.png"

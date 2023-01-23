@@ -1,54 +1,133 @@
 .financialSection {
-   margin: 0 auto;
-
-   padding: 60px;
+   margin: 20px auto;
+   padding: 30px;
+   border: 1px solid red;
 }
 
 .financialContent {
    display: flex;
+   border: 1px Solid cyan;
+   padding: 40px 0;
 }
+
 .financialSection h1 {
    font-size: 52px;
    color: black;
    font-weight: 700;
-   margin-bottom: 20px;
+   margin: 20px auto;
 }
+.financialColContent {
+   padding: 40px 40px 20px 0;
+   border: 1px solid orange;
+}
+
+.financialInnerContent {
+   border: 1px solid green;
+}
+.paymentBank {
+   padding-top: 40px;
+}
+
 .financialInnerContent h1 {
-   padding: 40px 150px 0 0;
+   margin: 30px 50px 30px 0;
+   /* border: 1px solid blue; */
    font-size: 42px;
 }
 .financialInnerContent p {
-   padding-right: 150px;
-   padding-bottom: 40px;
+   padding: 20px 20px 20px 0;
+   margin: 30px auto;
    font-size: 22px;
    font-weight: 600;
+   line-height: 25px;
 }
-
+.bannerFinancialContent {
+   text-align: end;
+}
 .bannerFinancialContent img {
    width: 452px;
+   height: 500px;
+}
+@media (max-width: 1399.98px) {
+   .financialColContent {
+      padding: 20px 20px 10px 0;
+   }
+   .financialInnerContent p {
+      padding: 0;
+   }
 }
 
-@media (max-width: 576px) {
-   .financialSection {
-      margin: 0 auto;
-      padding: 25px;
-   }
-
+@media (max-width: 1199.98px) {
    .financialSection h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+      font-size: 42px;
    }
    .financialInnerContent h1 {
-      padding: 15px 50px 0 0;
+      font-size: 36px;
+   }
+   .financialInnerContent p {
+      font-size: 20px;
+   }
+   .bannerFinancialContent img {
+      width: 402px;
+      height: 450px;
+   }
+}
+@media (max-width: 991.98px) {
+   .financialSection {
+      text-align: center;
+   }
+   .financialContent {
+      padding: 0;
+   }
+   .financialInnerContent h1 {
+      padding: 0 30px;
+      margin: 20px auto;
+      font-size: 32px;
+   }
+   .financialColContent {
+      padding: 0;
+   }
+   .financialInnerContent p {
+      padding: 0 60px;
+      margin: 60px auto;
+   }
+   .bannerFinancialContent {
+      margin: 40px auto;
+      text-align: center;
+   }
+}
+@media (max-width: 767.98px) {
+   .financialSection h1 {
+      font-size: 38px;
+   }
+   .financialInnerContent h1 {
       font-size: 30px;
    }
    .financialInnerContent p {
-      padding-right: 50px;
-      padding-bottom: 10px;
       font-size: 18px;
-      font-weight: 600;
+   }
+}
+
+@media (max-width: 576px) {
+   .financialInnerContent h1 {
+      padding: 0;
+   }
+   .financialInnerContent p {
+      padding: 0;
    }
    .bannerFinancialContent img {
       width: 252px;
+      height: 300px;
+   }
+}
+
+@media (max-width: 410.98px) {
+   .financialSection h1 {
+      font-size: 32px;
+   }
+   .financialInnerContent h1 {
+      font-size: 28px;
+   }
+   .financialInnerContent p {
+      font-size: 18px;
    }
 }
