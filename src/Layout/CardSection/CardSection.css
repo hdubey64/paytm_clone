@@ -1,43 +1,142 @@
-.cardSection {
+.unlimitedCardSection {
+   border: 1px Solid red;
    background-color: #f5f7fa;
-   margin: 0 auto;
-   padding-bottom: 150px;
+   padding: 20px;
 }
+.unlimitedCardContent {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px Solid green;
+   padding: 30px;
+}
+.unlimitedColContent {
+   background-color: white;
+   border-radius: 10px;
+   padding: 20px 20px 0 20px;
+   border: 1px solid cyan;
 
-.cardContent {
-   width: 92%;
-   margin: 0 auto;
-   /* background-color: white; */
+   /* padding: 20px 20px 0 20px; */
 }
-.innerContent {
-   border: none;
-   padding: 35px 35px 0 35px;
+.unlimitedCardInnerContent {
+   padding: 25px;
+   border: 1px solid yellow;
 }
-
-.innerContent h1 {
-   margin-top: 25px;
-   color: black;
+.hdfcBank {
+   margin-right: 25px;
+}
+.sbiBank {
+   margin-left: 25px;
+}
+.sbiIMgMargin {
+   margin-top: 55px;
+}
+.unlimitedCardInnerContent h1 {
+   font-size: 40px;
    font-weight: 700;
+   margin: 20px auto;
 }
-
-.innerContent p {
-   padding: 15px 0;
-   font-size: 22px;
-   color: black;
+.unlimitedCardInnerContent p {
+   font-size: 20px;
+   font-weight: 600;
+   margin: 20px auto;
 }
-.cardBanner img {
+.debitCardBanner {
+   margin-top: 30px;
+   border: 1px solid purple;
+}
+.debitCardBanner img {
    width: 463px;
+   height: 296px;
+}
+@media (max-width: 1399px) {
+   .unlimitedCardInnerContent {
+      padding: 15px;
+   }
+   .unlimitedCardInnerContent h1 {
+      padding-right: 20px;
+      border: 1px solid red;
+   }
+}
+@media (max-width: 1199.98px) {
+   .unlimitedCardInnerContent {
+      padding: 0px;
+   }
+   .unlimitedCardInnerContent h1 {
+      font-size: 34px;
+      padding-right: 0;
+   }
+   .unlimitedCardInnerContent p {
+      font-size: 17px;
+   }
+   .debitCardBanner img {
+      width: 363px;
+      height: 196px;
+   }
 }
 
+@media (max-width: 991px) {
+   .unlimitedCardInnerContent {
+      padding: 0px 100px;
+      text-align: center;
+   }
+   .hdfcBank {
+      margin-right: 0px;
+   }
+   .sbiBank {
+      margin-top: 60px;
+      margin-left: 0;
+   }
+   .debitCardBanner {
+      text-align: center;
+   }
+   .debitCardBanner img {
+      width: 463px;
+      height: 296px;
+   }
+}
+@media (max-width: 767px) {
+   .unlimitedCardInnerContent {
+      padding: 0px 30px;
+   }
+   .debitCardBanner img {
+      width: 363px;
+      height: 196px;
+   }
+}
 @media (max-width: 576px) {
-   .cardSection {
-      margin: 0 auto;
-      padding-bottom: 25px;
+   .unlimitedCardSection {
+      padding: 10px;
    }
-   .cardBanner img {
-      width: 263px;
+   .unlimitedCardContent {
+      padding: 0px;
    }
-   .innerContent {
-      margin: 20px auto;
+   .unlimitedColContent {
+      padding: 10px;
+      border-radius: 20px;
+   }
+   .unlimitedCardInnerContent {
+      padding: 0px 30px;
+   }
+   .unlimitedCardInnerContent h1 {
+      font-size: 30px;
+      padding-right: 0;
+   }
+
+   .debitCardBanner img {
+      width: 163px;
+      height: 96px;
+   }
+   .debitCardBanner {
+      margin-top: 15px;
+   }
+}
+
+@media (max-width: 513px) {
+   .unlimitedCardInnerContent {
+      padding: 0;
+   }
+   .unlimitedCardInnerContent h1 {
+      padding: 0;
    }
 }
