@@ -1,52 +1,112 @@
 .paytmMoneySection {
    background-image: url(./Assets/Images/paytmCloneBackground.svg);
    background-size: cover;
+   padding: 30px;
+   border: 1px solid red;
 }
 .paytmMoneyContent {
-   display: flex;
-   margin: 0 auto;
-   padding: 60px;
+   border: 1px solid green;
+   padding: 60px 20px;
 }
 .paytmMoneyInnerContent {
-   padding: 60px 60px 60px 0;
+   border: 1px solid violet;
+}
+.paytmMoneyColContent {
+   border: 1px solid black;
+   padding: 30px 0;
 }
 .paytmMoneyInnerContent h1 {
-   font-size: 42px;
-   line-height: 50px;
+   font-size: 40px;
+   width: 390px;
+   line-height: 40px;
    font-weight: 700;
-   padding-right: 120px;
+   margin: 40px 0;
 }
 .paytmMoneyInnerContent p {
+   padding-right: 30px;
    font-size: 20px;
    font-weight: 600;
+   line-height: 23px;
 }
-
+.bannerPaytmMoneyInnerContent {
+   margin: auto;
+   border: 1px solid cyan;
+}
 .bannerPaytmMoneyInnerContent img {
    width: 472px;
+   height: 427px;
 }
-@media (max-width: 576px) {
-   .paytmMoneyContent {
-      padding: 20px;
-      border: 1px solid red;
-   }
-   .paytmMoneyInnerContent {
-      padding: 20px 20px 20px 0;
+.paytmMoneyButton {
+   margin: 30px 0;
+}
+
+@media (max-width: 1199.98px) {
+   .bannerPaytmMoneyInnerContent img {
+      width: 422px;
+      height: 377px;
    }
    .paytmMoneyInnerContent h1 {
-      font-size: 26px;
-
-      line-height: 30px;
-      padding-right: 0;
-      margin: 15px auto;
+      font-size: 36px;
+      margin: 20px 0;
+   }
+}
+@media (max-width: 991.98px) {
+   .paytmMoneySection {
+      padding: 20px;
       text-align: center;
    }
-   .paytmMoneyInnerContent p {
-      font-size: 17px;
-      font-weight: 600;
+   .paytmMoneyColContent {
       margin: 30px auto;
-      text-align: justify;
    }
+   .paytmMoneyInnerContent h1 {
+      margin: 20px auto;
+      padding: 20px 60px;
+      width: 100%;
+   }
+   .paytmMoneyInnerContent p {
+      padding-right: 0;
+      padding: 0 50px;
+   }
+   .paytmMoneyButton {
+      margin: 50px 0;
+   }
+}
+@media (max-width: 767.98px) {
+   .paytmMoneyInnerContent h1 {
+      font-size: 32px;
+      padding: 20px 30px;
+      line-height: 30px;
+   }
+   .paytmMoneyInnerContent p {
+      padding: 0 30px;
+   }
+}
+@media (max-width: 576px) {
    .bannerPaytmMoneyInnerContent img {
-      width: 300px;
+      width: 272px;
+      height: 227px;
+   }
+   .paytmMoneyInnerContent h1 {
+      font-size: 28px;
+   }
+   .paytmMoneyInnerContent p {
+      font-size: 18px;
+   }
+}
+@media (max-width: 480px) {
+   .paytmMoneySection {
+      padding: 10px;
+   }
+   .paytmMoneyContent {
+      padding: 0 20px;
+   }
+   .paytmMoneyColContent {
+      padding: 0;
+   }
+   .paytmMoneyInnerContent h1 {
+      padding: 0;
+   }
+   .paytmMoneyInnerContent p {
+      padding: 0;
    }
 }
