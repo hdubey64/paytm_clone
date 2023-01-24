@@ -49,6 +49,9 @@
       font-size: 36px;
       margin: 20px 0;
    }
+   .paytmMoneyInnerContent p {
+      font-size: 18px;
+   }
 }
 @media (max-width: 991.98px) {
    .paytmMoneySection {
@@ -65,7 +68,7 @@
    }
    .paytmMoneyInnerContent p {
       padding-right: 0;
-      padding: 0 50px;
+      padding: 30px 50px;
    }
    .paytmMoneyButton {
       margin: 50px 0;
@@ -77,9 +80,9 @@
       padding: 20px 30px;
       line-height: 30px;
    }
-   .paytmMoneyInnerContent p {
-      padding: 0 30px;
-   }
+   /* .paytmMoneyInnerContent p {
+      padding: 0 60px;
+   } */
 }
 @media (max-width: 576px) {
    .bannerPaytmMoneyInnerContent img {
@@ -91,6 +94,7 @@
    }
    .paytmMoneyInnerContent p {
       font-size: 18px;
+      padding: 30px;
    }
 }
 @media (max-width: 480px) {
@@ -107,6 +111,6 @@
       padding: 0;
    }
    .paytmMoneyInnerContent p {
-      padding: 0;
+      padding: 20px 0;
    }
 }

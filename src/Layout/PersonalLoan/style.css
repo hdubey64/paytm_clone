@@ -1,58 +1,29 @@
 .PersonalLoanSection {
    background-color: #f5f7fa;
-   margin: 0 auto;
+   margin: 20px auto;
+   padding: 30px;
+   border: 1px solid red;
 }
 .PersonalLoanContent {
-   display: flex;
-   margin: 0 auto;
-   padding: 60px;
+   border: 1px solid cyan;
+   padding: 30px;
 }
 .PersonalLoanInnerContent {
-   padding: 60px 60px 60px 0;
+   padding: 30px;
+   border: 1px solid green;
+}
+.getLoan {
+   padding: 60px 30px;
 }
 .PersonalLoanInnerContent h1 {
-   font-size: 42px;
-   line-height: 50px;
+   margin: 40px 0;
+   width: 390px;
+   font-size: 36px;
+   line-height: 35px;
    font-weight: 700;
-   padding-right: 120px;
 }
 .PersonalLoanInnerContent p {
+   padding: 30px 0;
    font-size: 20px;
    font-weight: 600;
-}
-
-@media (max-width: 576px) {
-   .PersonalLoanContent {
-      padding: 20px;
-   }
-   .PersonalLoanContent {
-      border: 1px solid cyan;
-      margin: 0 auto;
-      padding: 0px;
-   }
-   .PersonalLoanInnerContent {
-      margin: 20px auto;
-      padding: 0;
-      border: 1px solid green;
-   }
-   .PersonalLoanInnerContent h1 {
-      font-size: 26px;
-      line-height: 30px;
-      font-weight: 700;
-      padding-right: 0;
-      margin: 20px auto;
-      text-align: center;
-      border: 1px solid red;
-   }
-   .PersonalLoanInnerContent p {
-      margin: 20px auto;
-      font-size: 18px;
-      font-weight: 600;
-      text-align: justify;
-      border: 1px solid red;
-      margin-bottom: 30px;
-   }
-   .bannerPersonalLoan img {
-      width: 300px;
-   }
 }

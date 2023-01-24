@@ -1,57 +1,109 @@
-.insuranceBrokingSection {
-   margin: 0 auto;
-
+.insuranceSection {
+   margin: 20px auto;
    padding: 60px;
+
+   border: 1px Solid red;
 }
 
-.insuranceBrokingContent {
-   display: flex;
+.insuranceColContent {
+   padding: 30px;
+   border: 1px solid purple;
 }
-.insuranceBrokingSection h1 {
-   font-size: 52px;
+.insuranceInnerContent {
+   border: 1px solid cyan;
+}
+.insuranceMade {
+   padding: 30px 0;
+   border: 1px solid navy;
+}
+.insuranceInnerContent h1 {
    color: black;
+   border: 1px solid red;
    font-weight: 700;
-   margin-bottom: 20px;
-}
-.insuranceBrokingInnerContent h1 {
-   padding: 40px 150px 0 0;
    font-size: 42px;
+   margin: 30px auto;
 }
-.insuranceBrokingInnerContent p {
-   padding-right: 150px;
-   padding-bottom: 40px;
-   font-size: 22px;
+.insuranceInnerContent p {
+   font-size: 20px;
    font-weight: 600;
+   line-height: 22px;
+   padding: 30px 60px 40px 0;
+   border: 1px solid chartreuse;
 }
-
-.bannerInsuranceBroking img {
-   width: 452px;
+.bannerinsurance {
+   text-align: end;
+}
+.bannerinsurance img {
+   width: 432px;
+   height: 398;
+}
+@media (max-width: 1199.98px) {
+   .insuranceMade {
+      padding: 15px 0;
+   }
+   .insuranceInnerContent h1 {
+      font-size: 34px;
+      margin: 15px auto;
+   }
+   .insuranceInnerContent p {
+      font-size: 18px;
+      padding: 10px 15px 20px 0;
+      border: 1px solid chartreuse;
+   }
+   .bannerinsurance img {
+      width: 332px;
+      height: 298;
+   }
+}
+@media (max-width: 991.98px) {
+   .insuranceSection {
+      padding: 30px;
+      text-align: center;
+   }
+   .insuranceInnerContent h1 {
+      margin: 20px auto;
+   }
+   .insuranceInnerContent p {
+      font-size: 18px;
+      padding: 20px 80px;
+   }
+   .bannerinsurance {
+      text-align: center;
+   }
+}
+@media (max-width: 767.98px) {
+   .insuranceInnerContent p {
+      font-size: 18px;
+      padding: 20px 60px;
+   }
 }
 
 @media (max-width: 576px) {
-   .insuranceBrokingSection {
+   .insuranceSection {
       padding: 0;
    }
-   .bannerInsuranceBroking img {
-      width: 300px;
-      margin: 40px auto;
+   .insuranceInnerContent h1 {
+      font-size: 28px;
    }
-   .insuranceBrokingContent {
-      padding: 20 auto;
-      border: 1px solid green;
+   .bannerinsurance img {
+      width: 332px;
+      height: 298;
    }
-   .insuranceBrokingInnerContent {
-      padding: 20px;
-      margin: 0 auto;
-   }
-   .insuranceBrokingInnerContent h1 {
-      font-size: 26px;
-      text-align: center;
+}
+@media (max-width: 490px) {
+   .insuranceSection {
       padding: 0;
    }
-   .insuranceBrokingInnerContent p {
-      padding: 0;
+   .bannerinsurance img {
+      width: 282px;
+      height: 248;
+   }
+   .insuranceInnerContent p {
       font-size: 18px;
-      text-align: justify;
+      padding: 20px 0px;
    }
+   /* .bannerinsurance {
+      width: 332px;
+      height: 298;
+   } */
 }

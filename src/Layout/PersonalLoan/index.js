@@ -7,9 +7,9 @@ const PersonalLoan = () => {
    return (
       <div className="PersonalLoanSection">
          <Container>
-            <div className="PersonalLoanContent">
-               <Row>
-                  <Col md={12} lg={6}>
+            <Row>
+               <Col md={12} lg={6}>
+                  <div className="PersonalLoanContent">
                      <div className="PersonalLoanInnerContent bannerPersonalLoan">
                         <img
                            src="https://assetscdn1.paytm.com/images/catalog/view_item/850765/1655987252365.png"
@@ -17,17 +17,16 @@ const PersonalLoan = () => {
                            width={433}
                         />
                      </div>
-                  </Col>
-                  <Col md={12} lg={6}>
-                     <div className="PersonalLoanInnerContent">
-                        <div>
-                           <img
-                              src="	https://assetscdn1.paytm.com/images/catalog/view/308777/1617695287770.png
-                  "
-                              alt=""
-                              width={176}
-                           />
-                        </div>
+                  </div>
+               </Col>
+               <Col md={12} lg={6}>
+                  <div className="PersonalLoanContent">
+                     <div className="PersonalLoanInnerContent getLoan">
+                        <img
+                           src="	https://assetscdn1.paytm.com/images/catalog/view/308777/1617695287770.png "
+                           alt=""
+                           width={176}
+                        />
 
                         <h1>Get a Personal Loan in 2 Minutes.</h1>
                         <p>
@@ -39,9 +38,9 @@ const PersonalLoan = () => {
                            <LearnMoreButton buttonText="Learn More" />
                         </div>
                      </div>
-                  </Col>
-               </Row>
-            </div>
+                  </div>
+               </Col>
+            </Row>
          </Container>
       </div>
    );
