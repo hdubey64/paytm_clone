@@ -8,18 +8,15 @@ const PersonalLoan = () => {
       <div className="PersonalLoanSection">
          <Container>
             <Row>
-               <Col md={12} lg={6}>
-                  <div className="PersonalLoanContent">
-                     <div className="PersonalLoanInnerContent bannerPersonalLoan">
-                        <img
-                           src="https://assetscdn1.paytm.com/images/catalog/view_item/850765/1655987252365.png"
-                           alt=""
-                           width={433}
-                        />
-                     </div>
+               <Col md={12} lg={6} className="m-auto">
+                  <div className="PersonalLoanInnerContent bannerPersonalLoan">
+                     <img
+                        src="https://assetscdn1.paytm.com/images/catalog/view_item/850765/1655987252365.png"
+                        alt=""
+                     />
                   </div>
                </Col>
-               <Col md={12} lg={6}>
+               <Col md={12} lg={6} className="m-auto">
                   <div className="PersonalLoanContent">
                      <div className="PersonalLoanInnerContent getLoan">
                         <img
@@ -34,7 +31,7 @@ const PersonalLoan = () => {
                            hassle-free loan. It is 100% digital, transparent and
                            paperless.
                         </p>
-                        <div>
+                        <div className="paytmMoneyButton">
                            <LearnMoreButton buttonText="Learn More" />
                         </div>
                      </div>
