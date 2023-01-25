@@ -16,6 +16,10 @@
 .headIcon img {
    width: 160px;
    height: 53px;
+   border: none;
+}
+.headIcon img:nth-child(2) {
+   margin-left: 5px;
 }
 .head h1 {
    width: 230px;
