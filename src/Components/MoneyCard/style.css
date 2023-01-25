@@ -63,3 +63,21 @@ a:hover {
    color: #2a3065;
 }
 
+.moneyCardContent {
+   text-align: start;
+}
+
+@media (max-width: 991.98px) {
+   .moneyCardContent {
+      text-align: center;
+   }
+   .moneyCardContent p {
+      padding: 0 60px;
+   }
+}
+
+@media (max-width: 576.98px) {
+   .moneyCardContent p {
+      padding: 0;
+   }
+}

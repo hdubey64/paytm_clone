@@ -1,10 +1,11 @@
 .horizontalScrollTravelContent {
    position: relative;
+   padding-left: 10px;
    margin: 0 auto;
-   width: 55vw;
+   width: 100%;
 }
 .scroll-container {
-   width: 55vw;
+   width: 100%;
    overflow: scroll;
    position: relative;
    /* hide scrollbar */

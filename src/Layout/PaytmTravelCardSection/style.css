@@ -1,9 +1,14 @@
 .paytmTravelCardSectionSection {
    padding: 60px;
-   /* padding-left: 120px; */
-   padding-top: 30px;
+   margin: 40px auto;
 }
 .colContent {
-   padding-left: 70px;
-   padding-right: 0;
+   /* padding-left: 70px;
+   padding-right: 0; */
+}
+
+@media (max-width: 991.98px) {
+   .colContent {
+      text-align: center;
+   }
 }

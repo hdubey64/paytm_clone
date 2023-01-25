@@ -10,7 +10,7 @@ const PaytmTravelCardSection = () => {
          <Container className="paytmTravelCardSectionSection">
             <div className="paytmTravelCardSectionInnerContent m-auto ">
                <Row>
-                  <Col className="colContent" md={3} sm={12}>
+                  <Col className="colContent" lg={3} md={12}>
                      <MoneyCard
                         img="https://assetscdn1.paytm.com/images/catalog/view/307197/1626419838546.png"
                         imgWidth="150"
@@ -20,7 +20,7 @@ const PaytmTravelCardSection = () => {
                         buttonText="Learn More"
                      />
                   </Col>
-                  <Col sm={12} md={9}>
+                  <Col lg={9} md={12}>
                      <HorizontalScrollTravel />
                   </Col>
                </Row>

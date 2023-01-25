@@ -42,10 +42,10 @@ const moneyData = [
 const HorizontalScrollTravel = () => {
    const scrollContainerRef = useRef(null);
    const handleLeftButtonClick = () => {
-      scrollContainerRef.current.scrollLeft -= 250;
+      scrollContainerRef.current.scrollLeft -= 200;
    };
    const handleRightButtonClick = () => {
-      scrollContainerRef.current.scrollLeft += 250;
+      scrollContainerRef.current.scrollLeft += 200;
    };
 
    return (
