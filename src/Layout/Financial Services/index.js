@@ -29,8 +29,8 @@ const FinancialSection = () => {
                                  zero balance requirements, experience the
                                  future of banking today.
                               </p>
-                              <div className="paytmMoneyButton">
-                                 <LearnMoreButton />
+                              <div className="paytmMoneyButton my-5">
+                                 <LearnMoreButton buttonText="Lern More" />
                               </div>
                            </div>
                         </div>
