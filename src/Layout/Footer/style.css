@@ -1,7 +1,50 @@
 .footerSection {
    background-color: #f5f7fa;
-   margin-top: 60px;
+   margin: 40px auto;
    padding: 60px;
+   border: 1px Solid red;
+}
+.footerInnerContent {
+   border: 1px Solid navy;
+}
+
+.head {
+   border: 1px solid green;
+   padding: 15px;
+}
+.headIcon {
+   border: #00baf2 1px Solid;
+   margin-left: -70px;
+   padding: 15px;
+}
+.headIcon img {
+   width: 160px;
+   height: 53px;
+}
+.head h1 {
+   width: 230px;
+   font-size: 20px;
+   font-weight: 600;
+   padding-bottom: 15px;
+   border: 1px Solid green;
+}
+.headSocial {
+   /* width: 10%; */
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   border: 1px Solid #002970;
+   padding: 15px;
+}
+.headSocial svg {
+   width: 1.5rem !important;
+   height: 1.5rem !important;
+   fill: #707070;
+   margin: auto 20px;
+}
+
+hr {
+   color: black;
 }
 .blue {
    width: 100%;
@@ -13,38 +56,57 @@
    height: 12px;
    background-color: #002970;
 }
+@media (max-width: 1399.98px) {
+   .headIcon {
+      margin-left: -50px;
+   }
+}
+@media (max-width: 1199.98px) {
+   .footerSection {
+      margin: 20px auto;
+      padding: 10px;
+   }
+   .headIcon {
+      margin-left: -10px;
+   }
+}
+@media (max-width: 991.98px) {
+   .head {
+      text-align: center;
+   }
+   .head h1 {
+      width: 100%;
+   }
+   .headIcon {
+      margin-left: 0;
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+   }
+   .headSocial {
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   .blue {
+      height: 20px;
+   }
+   .darkBlue {
+      height: 20px;
+   }
+}
 
-.head {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.headIcon {
-   align-items: center;
-   margin: 10px;
-   margin-top: 20px;
-}
-.headIcon img {
-   width: 160px;
-   height: 53px;
-}
-.head h1 {
-   font-size: 20px;
-   font-weight: 700;
-   align-items: center;
-   margin-bottom: 15px;
-}
-.headSocial {
-   width: 10%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+@media (max-width: 991.98px) {
+   .headIcon {
+      flex-direction: column;
+      align-items: center;
+   }
+   .headIcon img {
+      width: 100%;
+      margin: 5px auto;
+   }
 }
 
-hr {
-   color: black;
-}
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
    .footerInnerContent {
       display: flex;
       justify-content: space-between;
@@ -95,4 +157,4 @@ hr {
       height: 2rem !important;
       fill: #707070;
    }
-}
+} */

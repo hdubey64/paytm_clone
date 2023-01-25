@@ -12,7 +12,7 @@ const Footer = () => {
                <div className="footerContent">
                   <div className="footerInnerContent">
                      <Row>
-                        <Col md={12} lg={3}>
+                        <Col md={12} lg={3} className="m-auto">
                            <div className="head">
                               <h1>
                                  <text>
@@ -25,7 +25,7 @@ const Footer = () => {
                               </h1>
                            </div>
                         </Col>
-                        <Col md={12} lg={6}>
+                        <Col md={12} lg={6} className="my-auto">
                            <div className="headIcon">
                               <img
                                  src="	https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/downloadApple.svg"
@@ -37,7 +37,7 @@ const Footer = () => {
                               />
                            </div>
                         </Col>
-                        <Col md={12} lg={3}>
+                        <Col md={12} lg={3} className="m-auto">
                            <div className="headSocial">
                               <div>
                                  <FaTwitter />
