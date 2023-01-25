@@ -8,7 +8,6 @@
 }
 .heroContant {
    padding: 20px;
-   border: 1px solid red;
 }
 .logo {
    padding-left: 80px;
@@ -125,7 +124,7 @@
       margin-bottom: 60px;
    }
    .appStoreButton {
-      margin: 20px auto;
+      margin: 40px auto;
       text-align: center;
    }
    .heroBanner {
@@ -160,28 +159,14 @@
    } */
 }
 
-/* @media (min-width: 577px) {
-   .heroContant {
-      margin-bottom: 20px;
-   }
-
-   .heroTag {
-      font-size: 36px;
-   }
-   .logo p {
-      font-size: 18px;
-   }
-   .heroBanner img {
-      width: 260px;
-   }
-} */
 @media (max-width: 576px) {
    .heroContant {
       margin-bottom: 20px;
    }
 
    .heroTag {
-      font-size: 36px;
+      font-size: 34px;
+      padding: 0;
    }
 
    .logo p {

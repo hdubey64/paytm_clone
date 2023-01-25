@@ -1,12 +1,11 @@
 .financialSection {
-   margin: 20px auto;
+   margin: 40px auto;
    padding: 30px;
-   border: 1px solid red;
 }
 
 .financialContent {
    display: flex;
-   border: 1px Solid cyan;
+
    padding: 40px 0;
 }
 
@@ -18,12 +17,8 @@
 }
 .financialColContent {
    padding: 40px 40px 20px 0;
-   border: 1px solid orange;
 }
 
-.financialInnerContent {
-   border: 1px solid green;
-}
 .paymentBank {
    padding-top: 40px;
 }

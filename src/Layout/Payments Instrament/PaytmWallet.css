@@ -11,7 +11,6 @@
    margin-bottom: 8px;
 }
 .walletContent {
-   border: 1px solid cyan;
    padding: 10px;
 }
 @media (max-width: 991.98px) {
@@ -24,7 +23,6 @@
 @media (max-width: 576px) {
    .walletSection {
       /* padding: 20px 0; */
-      border: 1px solid green;
    }
    .walletTag {
       font-size: 36px;
@@ -32,7 +30,6 @@
       padding-left: 0;
       padding: 20px;
       margin: 20px auto;
-      border: 1px solid green;
    }
 }
 

@@ -4,10 +4,9 @@
    border-radius: 5px;
    display: flex;
    flex-direction: row;
-
    align-items: center;
    padding: 80px;
-   border: 1px solid red;
+
    margin: 50px auto;
 }
 .center-card {
@@ -29,10 +28,6 @@
    font-size: 36px;
    font-weight: 700;
    margin: 2px auto;
-   /* padding-right: 140px;
-
- */
-   border: 1px solid red;
 }
 .center-card p {
    color: black;
@@ -76,7 +71,7 @@
    }
    .center-card {
       margin: 0, auto;
-      padding: 20px 30px;
+      padding: 30px 10px;
    }
    .banner img {
       width: 429px;

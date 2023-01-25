@@ -1,24 +1,19 @@
 .insuranceSection {
    margin: 20px auto;
    padding: 60px;
-
-   border: 1px Solid red;
+   margin: 40px auto;
 }
 
 .insuranceColContent {
    padding: 30px;
-   border: 1px solid purple;
 }
-.insuranceInnerContent {
-   border: 1px solid cyan;
-}
+
 .insuranceMade {
    padding: 30px 0;
-   border: 1px solid navy;
 }
 .insuranceInnerContent h1 {
    color: black;
-   border: 1px solid red;
+
    font-weight: 700;
    font-size: 42px;
    margin: 30px auto;
@@ -28,7 +23,6 @@
    font-weight: 600;
    line-height: 22px;
    padding: 30px 60px 40px 0;
-   border: 1px solid chartreuse;
 }
 .bannerinsurance {
    text-align: end;
@@ -48,7 +42,6 @@
    .insuranceInnerContent p {
       font-size: 18px;
       padding: 10px 15px 20px 0;
-      border: 1px solid chartreuse;
    }
    .bannerinsurance img {
       width: 332px;

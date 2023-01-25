@@ -1,34 +1,37 @@
 .businessToolsSection {
    padding: 60px;
    margin: 20px auto;
-   border: 1px solid red;
 }
 .businessToolsTag {
    font-size: 40px;
    color: black;
    padding-left: 50px;
    font-weight: 700;
-   margin-bottom: 8px;
+   margin-bottom: 10px;
 }
-.businessToolsInnerContent {
-   border: px solid green;
-}
+
 .businessToolsInnerContent {
    padding-top: 30px;
    display: flex;
    align-items: flex-start;
-   justify-content: space-between;
+   justify-content: space-evenly;
    flex-wrap: wrap;
 }
 @media (max-width: 991.98px) {
    .businessToolsSection {
       padding: 30px;
-      text-align: center;
+      /* text-align: center; */
    }
    .businessToolsTag {
+      padding-left: 0;
+   }
+   .businessToolContent {
+      text-align: center;
+   }
+   /* .businessToolsTag {
       font-size: 36px;
       padding: 20px 0;
-   }
+   } */
    .businessToolsInnerContent {
       justify-content: space-around;
       gap: 30px;
@@ -38,7 +41,7 @@
    .businessToolsTag {
       font-size: 28px;
    }
-   .businessToolsInnerContent {
+   /* .businessToolsInnerContent {
       justify-content: center;
-   }
+   } */
 }

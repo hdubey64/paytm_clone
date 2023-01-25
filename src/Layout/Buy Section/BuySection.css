@@ -3,10 +3,8 @@
    background-color: #002970;
    overflow: auto;
    resize: both;
-   border: 1px Solid red;
 }
 .buyContent {
-   border: 1px Solid red;
 }
 .buyContent h1 {
    color: white;

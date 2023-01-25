@@ -1,26 +1,23 @@
 .unlimitedCardSection {
-   border: 1px Solid red;
    background-color: #f5f7fa;
-   padding: 20px;
+   padding: 60px;
 }
 .unlimitedCardContent {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   border: 1px Solid green;
    padding: 30px;
 }
 .unlimitedColContent {
    background-color: white;
    border-radius: 10px;
    padding: 20px 20px 0 20px;
-   border: 1px solid cyan;
 
+   margin: 40px auto;
    /* padding: 20px 20px 0 20px; */
 }
 .unlimitedCardInnerContent {
    padding: 25px;
-   border: 1px solid yellow;
 }
 .hdfcBank {
    margin-right: 25px;
@@ -43,7 +40,6 @@
 }
 .debitCardBanner {
    margin-top: 30px;
-   border: 1px solid purple;
 }
 .debitCardBanner img {
    width: 463px;
@@ -55,7 +51,6 @@
    }
    .unlimitedCardInnerContent h1 {
       padding-right: 20px;
-      border: 1px solid red;
    }
 }
 @media (max-width: 1199.98px) {

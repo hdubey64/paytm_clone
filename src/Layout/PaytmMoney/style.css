@@ -2,17 +2,14 @@
    background-image: url(./Assets/Images/paytmCloneBackground.svg);
    background-size: cover;
    padding: 30px;
-   border: 1px solid red;
+   margin: 40px auto;
 }
 .paytmMoneyContent {
-   border: 1px solid green;
    padding: 60px 20px;
 }
 .paytmMoneyInnerContent {
-   border: 1px solid violet;
 }
 .paytmMoneyColContent {
-   border: 1px solid black;
    padding: 30px 0;
 }
 .paytmMoneyInnerContent h1 {
@@ -30,7 +27,6 @@
 }
 .bannerPaytmMoneyInnerContent {
    margin: auto;
-   border: 1px solid cyan;
 }
 .bannerPaytmMoneyInnerContent img {
    width: 472px;

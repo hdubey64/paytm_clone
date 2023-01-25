@@ -1,9 +1,7 @@
 .toolsCardContent {
-   border: 1px Solid cyan;
    width: 230px;
 }
 .toolsCardContent {
-   border: 1px solid orangered;
    padding: 20px 0;
 }
 .toolsCardContent h1 {
@@ -46,9 +44,9 @@
    height: 220px;
 }
 @media (max-width: 991.98px) {
-   .toolsCard {
+   /* .toolsCard {
       text-align: center;
-   }
+   } */
    .toolsCard img {
       width: 200px;
       height: 180px;

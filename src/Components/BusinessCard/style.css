@@ -1,5 +1,4 @@
 .businessCard {
-   border: 1px Solid red;
    padding: 60px 0 60px 60px;
    background-color: #f5f7fa;
    border: none;
@@ -14,11 +13,9 @@
 }
 .businessCardColContent {
    padding: 30px 0 60px 30px;
-   border: 1px solid yellow;
 }
 
 .businessInnerContent {
-   border: 1px solid red;
    padding-right: 0;
 }
 .businessInnerContent h1 {
@@ -38,7 +35,6 @@
    height: 464px;
 }
 .bannerStyle {
-   border: 1px Solid red;
    text-align: end;
 }
 .bannerSizeTwo img {
@@ -72,7 +68,6 @@
 @media (max-width: 991.98px) {
    .businessCardColContent {
       padding: 30px;
-      border: 1px solid yellow;
    }
    .businessCard {
       text-align: center;
