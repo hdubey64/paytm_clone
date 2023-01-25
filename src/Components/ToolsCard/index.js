@@ -1,12 +1,10 @@
 import React from "react";
 import { Container } from "reactstrap";
-import { FaAngleRight } from "react-icons/fa";
 import "./style.css";
 
 const ToolsCard = ({
    pic = "",
-   h3Line1 = "",
-   h3Line2 = "",
+   toolsTag = { lineOne: "", lineTwo: "" },
    cardPara = "",
    linkText = "",
 }) => {
@@ -14,12 +12,13 @@ const ToolsCard = ({
       <div className=" toolsCard">
          <Container>
             <div className="toolsCardContent">
-               <img src={pic} alt="" />
-
-               <h3 className="toolsCardTag">{h3Line1}</h3>
-               <h3 className="toolsCardTag">{h3Line2}</h3>
-               <p>{cardPara}</p>
-               <a href="#">{linkText} </a>
+               <div className="toolsCardInnerContent">
+                  <img src={pic} alt="" />
+                  <h1 className="toolsCardTag">{toolsTag.lineOne}</h1>
+                  <h1 className="toolsCardTag">{toolsTag.lineTwo}</h1>
+                  <p>{cardPara}</p>
+                  <a href="#">{linkText} </a>
+               </div>
             </div>
          </Container>
       </div>

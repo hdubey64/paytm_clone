@@ -1,11 +1,27 @@
-.toolsCardContent h3 {
+.toolsCardContent {
+   border: 1px Solid cyan;
+   width: 230px;
+}
+.toolsCardContent {
+   border: 1px solid orangered;
+   padding: 20px 0;
+}
+.toolsCardContent h1 {
    font-size: 26px;
    color: black;
-   font-weight: 600;
+   font-weight: 700;
+}
+.toolsCardContent h1:nth-child(2) {
+   margin-top: 20px;
+   margin-bottom: -6px;
+}
+.toolsCardContent h1:nth-child(3) {
+   margin-top: -6px;
+   margin-bottom: 20px;
 }
 .toolsCardContent p {
-   font-size: 20px;
    color: black;
+   font-size: 20px;
 }
 
 .toolsCardContent a {
@@ -29,7 +45,16 @@
    width: 240px;
    height: 220px;
 }
-
+@media (max-width: 991.98px) {
+   .toolsCard {
+      text-align: center;
+   }
+   .toolsCard img {
+      width: 200px;
+      height: 180px;
+   }
+}
+/* 
 @media (max-width: 576px) {
    .toolsCardContent {
       margin: 20px auto;
@@ -51,4 +76,4 @@
       height: 160px;
       margin: 0 auto;
    }
-}
+} */

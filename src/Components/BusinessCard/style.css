@@ -1,79 +1,125 @@
 .businessCard {
-   /* width: 92%;
-   height: 100%; */
-
-   padding: 60px;
-}
-.businessContent {
+   border: 1px Solid red;
+   padding: 60px 0 60px 60px;
+   background-color: #f5f7fa;
    border: none;
    border-radius: 15px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   padding: 80px 0 80px 115px;
-   background-color: #f5f7fa;
+   margin: 40px auto;
+}
+.businessContent {
+   border: 1px Solid green;
+
+   border: none;
+   border-radius: 15px;
+}
+.businessCardColContent {
+   padding: 30px 0 60px 30px;
+   border: 1px solid yellow;
 }
 
 .businessInnerContent {
-   display: flex;
-   flex-direction: column;
-   padding-right: 40px;
+   border: 1px solid red;
+   padding-right: 0;
 }
 .businessInnerContent h1 {
+   width: 390px;
+   margin: 30px 0;
    color: black;
-   font-size: 36px;
+   font-size: 40px;
    font-weight: 700;
-   margin-bottom: 20px;
-   padding-right: 40px;
 }
 .businessInnerContent p {
    color: black;
    font-size: 18px;
+   font-weight: 600;
+   padding: 0 60px 20px 0;
+}
+.bannerHeight {
+   height: 464px;
 }
 .bannerStyle {
-   margin-right: -92px;
+   border: 1px Solid red;
+   text-align: end;
 }
-.bannerStyle img {
+.bannerSizeTwo img {
    width: 433px;
    height: 464px;
 }
-
-@media (max-width: 576px) {
+.bannerSizeOne img {
+   width: 433px;
+   height: 342px;
+}
+@media (max-width: 1199.98px) {
    .businessCard {
-      padding: 15px;
-      margin: 25px auto;
+      padding: 10px;
    }
-   .businessContent {
-      margin: 0 auto;
-      padding: 20px;
+   .businessInnerContent h1 {
+      font-size: 36px;
+      width: 350px;
+   }
+   .businessInnerContent p {
+      padding: 0 20px 10px 0;
+   }
+   .bannerSizeTwo img {
+      width: 273px;
+      height: 304px;
+   }
+   .bannerSizeOne img {
+      width: 273px;
+      height: 182px;
+   }
+}
+@media (max-width: 991.98px) {
+   .businessCardColContent {
+      padding: 30px;
+      border: 1px solid yellow;
+   }
+   .businessCard {
+      text-align: center;
    }
    .businessInnerContent {
-      margin: 0 auto;
-      text-align: center;
+      padding-left: 0;
       padding: 0;
    }
    .businessInnerContent h1 {
-      margin: 15px auto;
-      font-size: 26px;
-      text-align: center;
-      padding: 0;
+      padding: 0 60px;
+      font-size: 32px;
+      width: 100%;
    }
    .businessInnerContent p {
+      color: black;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 0 60px;
+   }
+   .bannerSizeTwo img {
+      display: none;
+   }
+   .bannerSizeOne img {
+      display: none;
+   }
+}
+
+@media (max-width: 767.98px) {
+   .businessInnerContent h1 {
+      padding: 0 30px;
+      font-size: 28px;
+   }
+   .businessInnerContent p {
+      padding: 0 30px;
+   }
+}
+@media (max-width: 576.98px) {
+   .businessCard {
       padding: 0;
-      margin-bottom: 30px;
    }
-
-   .bannerStyle {
-      margin: 60px 0 50px auto;
-      text-align: center;
+   .businessCardColContent {
+      padding: 0;
    }
-
-   .bannerStyle img {
-      width: 233px;
-      height: 264px;
-      margin: 0 auto;
-      padding: auto 0;
-      text-align: center;
+   .businessInnerContent h1 {
+      padding: 0px;
+   }
+   .businessInnerContent p {
+      padding: 0px;
    }
 }

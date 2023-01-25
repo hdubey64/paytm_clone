@@ -1,5 +1,6 @@
 .businessServicesSection {
-   padding: 60px 0;
+   padding: 60px;
+   border: 1px Solid red;
 }
 
 .businessServicesTag {
@@ -9,16 +10,31 @@
    font-weight: 700;
    margin-bottom: 8px;
 }
+@media (max-width: 991.98px) {
+   .businessServicesSection {
+      padding: 30px;
+   }
+   .businessServicesTag {
+      font-size: 36px;
+      padding-left: 0;
+   }
+   .businessServicesSection {
+      text-align: center;
+   }
+}
+@media (max-width: 767.98px) {
+   .businessServicesTag {
+      font-size: 32px;
+      padding: 30px 40px;
+   }
+}
 
 @media (max-width: 576px) {
    .businessServicesSection {
-      padding: 20px 0;
+      padding: 0;
    }
    .businessServicesTag {
-      font-size: 32px;
-      padding: 0;
-      text-align: center;
-
-      margin: 5px auto;
+      font-size: 30px;
+      padding: 10px 25px;
    }
 }
