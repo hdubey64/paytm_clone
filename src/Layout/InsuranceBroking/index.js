@@ -24,7 +24,7 @@ const insurance = () => {
                            convenient & easy-to-understand.
                         </p>
                         <div className="paytmMoneyButton">
-                           <LearnMoreButton />
+                           <LearnMoreButton buttonText="Learn More" />
                         </div>
                      </div>
                   </div>

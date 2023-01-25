@@ -24,9 +24,9 @@ export const HeroSection = () => {
                         a savings account, invest in stocks & mutual funds, and
                         do a lot more.
                      </p>
-                     <dir className="appStoreButton">
+                     <div className="appStoreButton">
                         <DownloadButton />
-                     </dir>
+                     </div>
                   </div>
                </Col>
                <Col md={12} lg={6} className="heroBanner">

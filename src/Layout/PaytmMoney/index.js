@@ -38,7 +38,7 @@ const PaytmMoney = () => {
                               that can help you create wealth & realise your
                               dreams.
                            </p>
-                           <div className="paytmMoneyButton">
+                           <div className="paytmMoneyButton my-5">
                               <LearnMoreButton buttonText="Learn More" />
                            </div>
                         </div>

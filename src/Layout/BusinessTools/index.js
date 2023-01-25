@@ -55,17 +55,17 @@ const BusinessTools = () => {
                      Business Tools to help <br /> your business grow <br />{" "}
                   </text>
                </h1>
-               <div className="businessToolsInnerContent">
-                  {toolsCardData.map((item) => (
-                     <ToolsCard
-                        key={item.pic}
-                        pic={item.pic}
-                        toolsTag={item.toolsTag}
-                        cardPara={item.cardPara}
-                        linkText={item.linkText}
-                     />
-                  ))}
-               </div>
+            </div>
+            <div className="businessToolsInnerContent">
+               {toolsCardData.map((item) => (
+                  <ToolsCard
+                     key={item.pic}
+                     pic={item.pic}
+                     toolsTag={item.toolsTag}
+                     cardPara={item.cardPara}
+                     linkText={item.linkText}
+                  />
+               ))}
             </div>
          </Container>
       </div>
